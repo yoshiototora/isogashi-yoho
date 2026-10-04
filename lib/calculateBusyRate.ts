@@ -34,18 +34,22 @@ export const CRUISE_SCALES = [
 
 export const WEEKEND_POINTS = 10;
 
-// お店ごとの設定。場所ごとに「お店への影響」を3つから選ぶ（選んでいない場所は「大きい」）。
+// お店ごとの設定。場所ごとに「お店への影響」を選ぶ（選んでいない場所は「大きい」）。
+// かんたん設定は3つのボタン、細かい設定はバーで 0〜2 の間を選ぶ（画面では 0〜100%）。
+// 点数に掛ける割合は、どちらも value ÷ 2。
 export const IMPACT_LEVELS = [
-  { value: 2, label: "大きい", rate: 1 },
-  { value: 1, label: "少し", rate: 0.5 },
-  { value: 0, label: "ない", rate: 0 },
+  { value: 2, label: "大きい" },
+  { value: 1, label: "少し" },
+  { value: 0, label: "ない" },
 ] as const;
-export type ShopSettings = Partial<Record<SpotId, 0 | 1 | 2>> & {
+export type ShopSettings = Partial<Record<SpotId, number>> & {
   area?: string; // おすすめの初期設定に使った地域
+  fine?: boolean; // 細かい設定を開いているか
+  weekend?: number; // 土日祝の影響（細かい設定だけ）
 };
 
 const impactRate = (settings: ShopSettings, spot: SpotId | undefined) =>
-  IMPACT_LEVELS.find((l) => l.value === (spot ? (settings[spot] ?? 2) : 2))!.rate;
+  (spot ? (settings[spot] ?? 2) : 2) / 2;
 
 // ─────────────────────────────────────────────
 
@@ -152,13 +156,17 @@ export function calculateBusyRate(
     });
   }
 
-  if (holidays[date]) {
+  // 土日祝の影響も、お店の設定で変えられる（「ない」なら理由にも出さない）
+  const weekendPoints = Math.round((WEEKEND_POINTS * (settings.weekend ?? 2)) / 2);
+  if (weekendPoints === 0) {
+    // 何も足さない
+  } else if (holidays[date]) {
     reasons.push({
       icon: "tram",
       kind: "土日祝",
       label: `祝日（${holidays[date]}）`,
       detail: "お出かけの人が増える日",
-      points: WEEKEND_POINTS,
+      points: weekendPoints,
     });
   } else if (dow === 0 || dow === 6) {
     reasons.push({
@@ -166,7 +174,7 @@ export function calculateBusyRate(
       kind: "土日祝",
       label: dow === 6 ? "土曜日" : "日曜日",
       detail: "お出かけの人が増える日",
-      points: WEEKEND_POINTS,
+      points: weekendPoints,
     });
   }
 

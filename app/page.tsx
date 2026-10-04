@@ -8,7 +8,7 @@ import {
   useSyncExternalStore,
   type ReactNode,
 } from "react";
-import { IMPORTED_AT, SHOP_AREAS, SPOTS, type SpotId } from "@/data";
+import { IMPORTED_AT, SHOP_AREAS, SPOTS } from "@/data";
 import {
   BUSY_LEVELS,
   IMPACT_LEVELS,
@@ -29,8 +29,7 @@ const CELL_STYLE = [
 ] as const;
 
 const WEEKDAYS = ["日", "月", "火", "水", "木", "金", "土"];
-// 5段階ごとの「混みやすさ」と、右上の注意報バッジ（山場だけ）
-const CROWD_LABEL = ["低め", "やや低め", "ふつう", "高め", "かなり高め"];
+// 右上の注意報バッジ（山場だけ）
 const ALERT = [null, null, null, null, "いそがし注意報"];
 // 段階名の色。忙しい日ほど朱色が強くなる
 const COPY_COLOR = ["text-ink", "text-ink", "text-shu/75", "text-shu/90", "text-shu"];
@@ -85,8 +84,10 @@ export default function Home() {
   const [settingsOpen, setSettingsOpen] = useState(false);
   const settingsRaw = useSyncExternalStore(subscribeSettings, readSettings, () => "{}");
   const settings = useMemo(() => parseSettings(settingsRaw), [settingsRaw]);
-  // 「大きい」以外にした場所の数と、選んだ地域
-  const adjusted = SPOTS.filter((spot) => (settings[spot.id] ?? 2) !== 2).length;
+  // 「大きい」以外にしたものの数と、選んだ地域
+  const adjusted =
+    SPOTS.filter((spot) => (settings[spot.id] ?? 2) !== 2).length +
+    ((settings.weekend ?? 2) !== 2 ? 1 : 0);
   const shopArea = SHOP_AREAS.find((a) => a.id === settings.area);
 
   // 詳細シートはスマホ幅だけ。PCでは理由を画面に出したままにする
@@ -100,9 +101,6 @@ export default function Home() {
   );
   const selected = forecast.find((d) => d.date === selectedDate) ?? forecast[0];
   const { level, short, copy } = getBusyLevel(selected.rate);
-  // 予報カードの要約（スマホ用）：影響の大きい理由（2種類まで）
-  const kinds = [...new Set(selected.reasons.map((r) => r.kind))];
-  const summary = kinds.slice(0, 2).join("＋") || "特になし";
 
   // カレンダーは「今月（今日以降）」と「来月」を切り替えて表示する
   const thisMonth = forecast[0].month;
@@ -203,41 +201,6 @@ export default function Home() {
             >
               <Marker level={level}>{copy}</Marker>
             </span>
-          </span>
-        </span>
-
-        {/* カモメ速報：港のようす（淡い海の帯に、混みやすさと主な理由の2つだけ） */}
-        <span className="relative block overflow-hidden bg-[#eaf5fc] px-5 pb-4 pt-3.5 lg:px-10 lg:pb-6 lg:pt-5">
-          {/* 右下に、うすく小さな船 */}
-          <svg
-            aria-hidden
-            viewBox="0 0 40 22"
-            className="absolute bottom-2 right-4 w-9 text-[#bddcef] lg:right-[19rem] lg:w-14"
-          >
-            <path
-              d="M4 14h32l-4 7H8ZM11 9h18v5H11ZM16 4h6v5h-6ZM24 1h3v8h-3Z"
-              fill="currentColor"
-            />
-          </svg>
-          {/* ニュースのテロップ風の小さな見出し */}
-          <span className="relative flex items-center gap-2.5">
-            <span className="rounded-full bg-ink px-2.5 py-0.5 text-[10px] font-extrabold tracking-[0.15em] text-white lg:px-3 lg:text-xs">
-              カモメ速報
-            </span>
-          </span>
-          <span className="relative mt-3 grid grid-cols-[auto_auto_1fr] items-center gap-x-2.5 gap-y-2.5 lg:mt-3.5 lg:flex lg:gap-x-3">
-            <SummaryIcon name="weather-sunny" />
-            <span className="text-xs font-bold text-ink/60 lg:text-sm">混みやすさ</span>
-            <span
-              className={`text-sm font-extrabold lg:mr-10 lg:text-xl ${
-                level >= 3 ? "text-shu" : "text-ink"
-              }`}
-            >
-              {CROWD_LABEL[level]}
-            </span>
-            <SummaryIcon name={selected.reasons[0]?.icon ?? "tram"} />
-            <span className="text-xs font-bold text-ink/60 lg:text-sm">主な理由</span>
-            <span className="text-sm font-extrabold lg:text-xl">{summary}</span>
           </span>
         </span>
 
@@ -355,6 +318,7 @@ export default function Home() {
 
       {settingsOpen && (
         <ShopSettingsSheet
+          today={today}
           settings={settings}
           onChange={writeSettings}
           onClose={() => setSettingsOpen(false)}
@@ -368,21 +332,6 @@ export default function Home() {
         />
       )}
     </main>
-  );
-}
-
-// カモメ速報の小さなアイコン
-function SummaryIcon({ name }: { name: string }) {
-  return (
-    <span className="relative block h-5 w-5 shrink-0 lg:h-6 lg:w-6">
-      <Image
-        src={`/assets/icons/${name}.png`}
-        alt=""
-        fill
-        sizes="24px"
-        className="object-contain"
-      />
-    </span>
   );
 }
 
@@ -478,18 +427,64 @@ function Harbor({ day }: { day: BusyDay }) {
   );
 }
 
-// お店の設定：場所ごとに「お店への影響」を3つのボタンから選ぶ
+// お店の設定：場所ごとに「お店への影響」を選ぶ。
+// ふつうは3つのボタン（大きい・少し・ない）。「もっと細かく設定する」を開くと、
+// バーで 0〜100% を5%きざみで選べて、土日祝の影響も変えられる。
 const IMPACT_STYLE: Record<number, string> = {
   2: "bg-shu text-white",
   1: "bg-shu/25 text-ink",
   0: "bg-ink/15 text-ink",
 };
 
+// 細かい設定のバー（0〜100%）。設定の値は 0〜2 で持つので、50で割って保存する
+function ImpactSlider({
+  label,
+  value,
+  onChange,
+}: {
+  label: string;
+  value: number;
+  onChange: (value: number) => void;
+}) {
+  const percent = Math.round(value * 50);
+  return (
+    <span className="flex items-center gap-2">
+      <span className="text-[10px] font-bold text-ink/45">ない</span>
+      <input
+        type="range"
+        min={0}
+        max={100}
+        step={5}
+        value={percent}
+        aria-label={label}
+        aria-valuetext={`${percent}%`}
+        onChange={(e) => onChange(Number(e.target.value) / 50)}
+        className="h-8 min-w-0 flex-1 accent-shu"
+      />
+      <span className="text-[10px] font-bold text-ink/45">大きい</span>
+      <span className="w-11 text-right text-sm font-extrabold tabular-nums">
+        {percent}%
+      </span>
+    </span>
+  );
+}
+
+// いまの設定で、今日から来月末までの各段階が何日あるか
+function countLevels(today: string, settings: ShopSettings) {
+  const counts = [0, 0, 0, 0, 0];
+  for (const day of getForecast(today, daysThroughNextMonth(today), settings)) {
+    counts[getBusyLevel(day.rate).level]++;
+  }
+  return counts;
+}
+
 function ShopSettingsSheet({
+  today,
   settings,
   onChange,
   onClose,
 }: {
+  today: string;
   settings: ShopSettings;
   onChange: (settings: ShopSettings) => void;
   onClose: () => void;
@@ -504,8 +499,21 @@ function ShopSettingsSheet({
     };
   }, [onClose]);
 
-  const choose = (spot: SpotId, value: 0 | 1 | 2) =>
-    onChange({ ...settings, [spot]: value });
+  const fine = settings.fine === true;
+  // 設定する前（すべて「大きい」）と、いまの設定での日数
+  const before = useMemo(() => countLevels(today, {}), [today]);
+  const after = useMemo(() => countLevels(today, settings), [today, settings]);
+
+  // かんたん設定に戻すときは、近いほうの3つのどれかに寄せる（土日祝は元に戻す）
+  const toggleFine = () => {
+    if (!fine) return onChange({ ...settings, fine: true });
+    const simple: ShopSettings = { area: settings.area };
+    for (const spot of SPOTS) {
+      const value = settings[spot.id];
+      if (value !== undefined) simple[spot.id] = value >= 1.5 ? 2 : value >= 0.5 ? 1 : 0;
+    }
+    onChange(simple);
+  };
 
   return (
     <div
@@ -517,7 +525,7 @@ function ShopSettingsSheet({
         aria-modal="true"
         aria-label="うちのお店に合わせる"
         onClick={(e) => e.stopPropagation()}
-        className="relative max-h-[92dvh] w-full max-w-[480px] animate-sheet-up overflow-y-auto rounded-t-[2.25rem] bg-paper px-5 pb-6 pt-6 sm:rounded-[2.25rem] sm:px-7"
+        className="relative max-h-[92dvh] w-full max-w-[480px] animate-sheet-up overflow-y-auto rounded-t-[2.25rem] bg-paper px-5 pt-6 sm:rounded-[2.25rem] sm:px-7"
       >
         <button
           onClick={onClose}
@@ -534,7 +542,9 @@ function ShopSettingsSheet({
           {SHOP_AREAS.map((a) => (
             <button
               key={a.id}
-              onClick={() => onChange({ ...a.preset, area: a.id })}
+              onClick={() =>
+                onChange({ ...a.preset, area: a.id, fine: settings.fine, weekend: settings.weekend })
+              }
               aria-pressed={settings.area === a.id}
               className={`rounded-full border-[1.5px] px-3.5 py-2 text-sm font-extrabold transition-colors active:scale-95 ${
                 settings.area === a.id
@@ -549,8 +559,17 @@ function ShopSettingsSheet({
 
         <p className="mt-5 text-sm font-extrabold">② 場所ごとに直す</p>
         <p className="mt-0.5 text-xs font-bold text-ink/65">
-          その場所で何かあるとき、お店はどれくらい忙しくなりますか？
+          その場所で何かあるとき、お店への影響はどれくらいですか？
         </p>
+        {fine && (
+          <p className="mt-2 rounded-2xl bg-blush px-3.5 py-2.5 text-[11px] font-bold leading-relaxed">
+            バーを右にするほど、その場所で何かある日が「忙しい日」になりやすくなります。
+            <br />
+            左にするほど、なりにくくなります。
+            <br />
+            0%にすると、その場所の予定は予報に入りません。
+          </p>
+        )}
 
         <ul className="mt-3 space-y-2">
           {SPOTS.map((spot) => {
@@ -558,9 +577,11 @@ function ShopSettingsSheet({
             return (
               <li
                 key={spot.id}
-                className="flex items-center gap-3 rounded-3xl bg-white px-4 py-3"
+                className={`rounded-3xl bg-white px-4 py-3 ${
+                  fine ? "space-y-1" : "flex items-center gap-3"
+                }`}
               >
-                <span className="min-w-0 flex-1">
+                <span className="block min-w-0 flex-1">
                   <span className="block text-sm font-extrabold leading-tight">
                     {spot.name}
                   </span>
@@ -568,44 +589,114 @@ function ShopSettingsSheet({
                     {spot.hint}
                   </span>
                 </span>
-                <span
-                  role="group"
-                  aria-label={`${spot.name}の影響`}
-                  className="flex shrink-0 rounded-full bg-ink/[0.06] p-0.5"
-                >
-                  {IMPACT_LEVELS.map((l) => (
-                    <button
-                      key={l.value}
-                      onClick={() => choose(spot.id, l.value)}
-                      aria-pressed={current === l.value}
-                      className={`min-w-[3.25rem] rounded-full px-2 py-2 text-xs font-extrabold transition-colors ${
-                        current === l.value
-                          ? IMPACT_STYLE[l.value]
-                          : "text-ink/45"
-                      }`}
-                    >
-                      {l.label}
-                    </button>
-                  ))}
-                </span>
+                {fine ? (
+                  <ImpactSlider
+                    label={`${spot.name}の影響`}
+                    value={current}
+                    onChange={(value) => onChange({ ...settings, [spot.id]: value })}
+                  />
+                ) : (
+                  <span
+                    role="group"
+                    aria-label={`${spot.name}の影響`}
+                    className="flex shrink-0 rounded-full bg-ink/[0.06] p-0.5"
+                  >
+                    {IMPACT_LEVELS.map((l) => (
+                      <button
+                        key={l.value}
+                        onClick={() => onChange({ ...settings, [spot.id]: l.value })}
+                        aria-pressed={current === l.value}
+                        className={`min-w-[3.25rem] rounded-full px-2 py-2 text-xs font-extrabold transition-colors ${
+                          current === l.value ? IMPACT_STYLE[l.value] : "text-ink/45"
+                        }`}
+                      >
+                        {l.label}
+                      </button>
+                    ))}
+                  </span>
+                )}
               </li>
             );
           })}
         </ul>
 
-        <div className="mt-5 flex items-center justify-between">
-          <button
-            onClick={() => onChange({})}
-            className="px-2 py-2 text-xs font-bold text-ink/55 underline underline-offset-4"
-          >
-            はじめに戻す
-          </button>
-          <button
-            onClick={onClose}
-            className="rounded-full bg-ink px-8 py-3 text-sm font-extrabold text-white active:scale-95"
-          >
-            できた
-          </button>
+        {/* 細かい設定：土日祝の影響も選べる */}
+        {fine && (
+          <>
+            <p className="mt-5 text-sm font-extrabold">③ 土日・祝日</p>
+            <p className="mt-0.5 text-xs font-bold text-ink/65">
+              土日や祝日の、お店への影響はどれくらいですか？
+            </p>
+            <div className="mt-3 rounded-3xl bg-white px-4 py-3">
+              <ImpactSlider
+                label="土日・祝日の影響"
+                value={settings.weekend ?? 2}
+                onChange={(value) => onChange({ ...settings, weekend: value })}
+              />
+            </div>
+          </>
+        )}
+        <button
+          onClick={toggleFine}
+          aria-expanded={fine}
+          className="mt-4 flex w-full items-center justify-between rounded-2xl border-[1.5px] border-ink/15 bg-white px-4 py-3 text-left active:scale-[0.99]"
+        >
+          <span>
+            <span className="block text-sm font-extrabold">
+              {fine ? "かんたん設定に戻す" : "もっと細かく設定する"}
+            </span>
+            <span className="block text-[11px] font-bold text-ink/55">
+              {fine
+                ? "3つから選ぶ形に戻します"
+                : "バーで細かく調整できて、土日・祝日の影響も変えられます"}
+            </span>
+          </span>
+          <span aria-hidden className="text-lg font-extrabold text-ink/50">
+            {fine ? "−" : "＋"}
+          </span>
+        </button>
+
+        {/* 設定でどう変わるか：下に固定して、動かしながら見えるようにする */}
+        <div className="sticky bottom-0 -mx-5 mt-4 border-t border-ink/10 bg-paper px-5 pb-5 pt-3 sm:-mx-7 sm:px-7">
+          <p className="text-xs font-extrabold">
+            この設定での予報
+            <span className="ml-1.5 font-bold text-ink/55">今日〜来月末・設定する前との差</span>
+          </p>
+          <ul className="mt-2 grid grid-cols-5 gap-1">
+            {BUSY_LEVELS.map((l) => {
+              const diff = after[l.level] - before[l.level];
+              return (
+                <li
+                  key={l.level}
+                  className={`rounded-xl px-1 py-1.5 text-center ${CELL_STYLE[l.level]} ${
+                    l.level === 0 ? "border border-ink/10 !text-ink/60" : ""
+                  }`}
+                >
+                  <span className="block text-[10px] font-extrabold">{l.short}</span>
+                  <span className="block text-sm font-extrabold tabular-nums">
+                    {after[l.level]}日
+                  </span>
+                  <span className="block text-[10px] font-bold tabular-nums opacity-80">
+                    {diff === 0 ? "±0" : diff > 0 ? `+${diff}` : `−${-diff}`}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
+          <div className="mt-3 flex items-center justify-between">
+            <button
+              onClick={() => onChange({})}
+              className="px-2 py-2 text-xs font-bold text-ink/55 underline underline-offset-4"
+            >
+              はじめに戻す
+            </button>
+            <button
+              onClick={onClose}
+              className="rounded-full bg-ink px-8 py-3 text-sm font-extrabold text-white active:scale-95"
+            >
+              できた
+            </button>
+          </div>
         </div>
       </div>
     </div>
