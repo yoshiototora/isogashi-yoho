@@ -42,6 +42,8 @@ const monthLabels = months.map((d) => `${d.getFullYear()}年${d.getMonth() + 1}�
 // 調べる公式ページ。増やすときは、ここに足す。
 //   venue：会場のページ。その会場のイベントとして扱う
 //   town ：観光サイトのお祭り一覧。まちなか・水辺の森・長崎駅のお祭りだけを拾う
+//   festival：毎年ある催しの公式ページ。一覧に載らないものを、1つずつ登録しておく。
+//             AIには今年の開催日だけを読ませる。名前・場所・規模は、ここに登録したものを使う
 const SOURCES = [
   { type: "venue", place: "出島メッセ長崎", urls: ["https://dejima-messe.jp/event"] },
   {
@@ -52,7 +54,41 @@ const SOURCES = [
       (d) => `https://www.brickhall.jp/event/?Month=${String(d.getFullYear()).slice(2)}${pad(d.getMonth() + 1)}&Facility=1`,
     ),
   },
-  { type: "town", place: "まちなかのお祭り", urls: ["https://www.at-nagasaki.jp/event"] },
+  {
+    type: "town",
+    place: "まちなかのお祭り",
+    // 一覧は40件ごとにページが分かれている（2026-10-04 時点で42件・2ページ）
+    urls: [1, 2].map((page) => `https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=${page}`),
+  },
+  {
+    type: "festival",
+    name: "Lovefes",
+    place: "長崎水辺の森公園",
+    spot: "mizube",
+    icon: "live",
+    expected: 55000,
+    basis: "2024年の来場者数（2日間で11万人・主催のKTN発表）の1日あたり",
+    urls: ["https://www.ktn.co.jp/special/lovefes/"],
+  },
+  {
+    type: "festival",
+    name: "長崎ベイサイドマラソン",
+    place: "長崎水辺の森公園",
+    spot: "mizube",
+    icon: "event",
+    expected: 2950,
+    basis: "2026年の募集定員（ハーフ1,900人、10km 1,050人。1.9kmは含まず）",
+    urls: ["https://www.city.nagasaki.lg.jp/page/20104.html"],
+  },
+  {
+    type: "festival",
+    name: "NAGASAKI CITY JAZZ",
+    place: "長崎駅 かもめ広場ほか",
+    spot: "station",
+    icon: "live",
+    ...{ expected: 1000, basis: "来場者数は不明（小規模として計上）" },
+    urls: ["https://nagasaki-city-jazz.com/"],
+  },
 ];
 
 // 会場ごとの決まり（場所・アイコン・想定来場者数とその根拠）
@@ -154,6 +190,29 @@ ${RULES}
 文章：
 ${pageText}`;
 
+const festivalPrompt = (name, url, pageText) => `次の文章は、「${name}」の公式ページ（${url}）から取り出したものです。
+この催しそのものが、${monthLabels.join("または")}に開催される場合だけ、その開催日を抜き出してください。
+
+${RULES}
+- 過去の年の日程や、関連する別の催し・募集の締め切り・お知らせの日付は入れないでください。
+- 開催日が書かれていない、または上の月ではない場合は、空の配列を返してください。
+
+答えは次の形のJSONの配列だけにしてください（催しは1つなので、要素は多くても1つです）。
+[{"name":"${name}","dates":["YYYY-MM-DD"],"start":"HH:MM または null"}]
+
+文章：
+${pageText}`;
+
+// 日付（YYYY-MM-DD）が、ページの文章に書かれているか。
+// 年が書かれていて、月と日（10月24日・10.24・10/24 など）、または日だけ（25日・-25 など）が見つかればよい
+function dateIsWritten(date, text, isFirst) {
+  const [y, m, d] = date.split("-").map(Number);
+  if (!text.includes(String(y)) && !text.includes(`令和${y - 2018}年`)) return false;
+  const monthDay = new RegExp(`0?${m}\\s*[月./]\\s*0?${d}(?!\\d)`);
+  if (monthDay.test(text)) return true;
+  return !isFirst && new RegExp(`(?<!\\d)0?${d}\\s*(日|sun|sat|mon|tue|wed|thu|fri|（|\\()`, "i").test(text);
+}
+
 // ───── 機械的な確認。通らなかった理由を返す（通れば null）
 const squash = (text) => String(text).replace(/[\s|｜]/g, "");
 const first = `${months[0].getFullYear()}-${pad(months[0].getMonth() + 1)}-01`;
@@ -161,7 +220,7 @@ const last = `${months[1].getFullYear()}-${pad(months[1].getMonth() + 1)}-31`;
 
 function check(e, type, pageText) {
   if (typeof e.name !== "string" || squash(e.name).length < 2) return "名前がない";
-  if (!squash(pageText).includes(squash(e.name))) return "名前がページの文章に見つからない";
+  if (type !== "festival" && !squash(pageText).includes(squash(e.name))) return "名前がページの文章に見つからない";
   if (!Array.isArray(e.dates) || e.dates.length === 0) return "日付がない";
   for (const d of e.dates) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(d) || Number.isNaN(Date.parse(d))) return "日付の形がおかしい";
@@ -169,6 +228,11 @@ function check(e, type, pageText) {
   }
   if (e.dates.length > MAX_DAYS) return `長期開催（${MAX_DAYS}日より長い）`;
   if (e.start != null && !/^\d{1,2}:\d{2}$/.test(e.start)) return "開始時刻の形がおかしい";
+  if (type === "festival") {
+    const sorted = [...e.dates].sort();
+    const missing = sorted.find((d, i) => !dateIsWritten(d, pageText, i === 0));
+    return missing ? `日付（${missing}）がページの文章に見つからない` : null;
+  }
   if (type === "venue") {
     if (e.kind === "show") return null;
     if (e.kind === "conference") return e.dates.length >= 2 ? null : "1日だけの会議";
@@ -181,9 +245,14 @@ function check(e, type, pageText) {
 
 // アプリが使う形にする
 const TOWN_PLACES = { machinaka: "まちなか", mizube: "長崎水辺の森公園", station: "長崎駅" };
-function toAppEvent(e, type, place, url) {
+function toAppEvent(e, source, url) {
+  const { type, place } = source;
   const name = e.name.replace(/[|｜]/g, " ").replace(/\s+/g, " ").trim();
   const base = { name, dates: [...new Set(e.dates)].sort(), start: e.start ?? null, source: url };
+  if (type === "festival") {
+    const { icon, expected, basis, spot } = source;
+    return { ...base, name: source.name, icon, expected, basis, place, spot, from: source.name };
+  }
   if (type === "venue") {
     const { spot, icon, expected, basis } = VENUES[place];
     return { ...base, icon, expected, basis, place, spot, from: place };
@@ -196,7 +265,10 @@ const previous = existsSync(AUTO) ? (JSON.parse(readFileSync(AUTO, "utf8")).even
 const candidates = [];
 const approved = [];
 let failed = false;
-for (const { type, place, urls } of SOURCES) {
+for (const source of SOURCES) {
+  const { type, place, urls } = source;
+  // 前回の内容と突き合わせるための名前
+  const key = source.name ?? place;
   const found = [];
   let ok = true;
   for (const url of urls) {
@@ -204,22 +276,23 @@ for (const { type, place, urls } of SOURCES) {
       const res = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (isogashi-yoho data import)" } });
       if (!res.ok) throw new Error(`ページを取れませんでした（HTTP ${res.status}）`);
       const pageText = toText(await res.text());
-      const list = await askGemini((type === "venue" ? venuePrompt : townPrompt)(place, url, pageText));
+      const ask = { venue: venuePrompt, town: townPrompt, festival: festivalPrompt }[type];
+      const list = await askGemini(ask(key, url, pageText));
       if (!Array.isArray(list)) throw new Error("読み取った結果が決まった形ではありません");
       for (const e of list) {
         const rejected = check(e, type, pageText);
         candidates.push({ ...e, place, source: url, accepted: !rejected, reason: rejected ?? undefined });
-        if (!rejected) found.push(toAppEvent(e, type, place, url));
+        if (!rejected) found.push(toAppEvent(e, source, url));
       }
-      console.log(`✓ ${place}：読み取り ${list.length}件（${url}）`);
+      console.log(`✓ ${key}：読み取り ${list.length}件（${url}）`);
     } catch (error) {
       ok = false;
       failed = true;
-      console.error(`✗ ${place}：${hide(error.message)}`);
+      console.error(`✗ ${key}：${hide(error.message)}`);
     }
   }
   // 失敗した場所は、前回の内容を残す
-  approved.push(...(ok ? found : previous.filter((e) => e.from === place)));
+  approved.push(...(ok ? found : previous.filter((e) => e.from === key)));
 }
 
 const byDate = (a, b) => (a.dates?.[0] ?? "").localeCompare(b.dates?.[0] ?? "");

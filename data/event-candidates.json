@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-10-04T02:41:10.376Z",
+  "researchedAt": "2026-10-04T04:04:13.310Z",
   "model": "gemini-3.5-flash",
   "months": [
     "2026年10月",
@@ -66,7 +66,7 @@
       "kind": "festival",
       "area": "machinaka",
       "place": "まちなかのお祭り",
-      "source": "https://www.at-nagasaki.jp/event",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
       "accepted": true
     },
     {
@@ -101,7 +101,7 @@
       "kind": "festival",
       "area": "machinaka",
       "place": "まちなかのお祭り",
-      "source": "https://www.at-nagasaki.jp/event",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
       "accepted": true
     },
     {
@@ -163,7 +163,7 @@
       "kind": "festival",
       "area": "machinaka",
       "place": "まちなかのお祭り",
-      "source": "https://www.at-nagasaki.jp/event",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
       "accepted": true
     },
     {
@@ -177,7 +177,7 @@
       "kind": "festival",
       "area": "machinaka",
       "place": "まちなかのお祭り",
-      "source": "https://www.at-nagasaki.jp/event",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
       "accepted": true
     },
     {
@@ -285,7 +285,7 @@
       "kind": "festival",
       "area": "machinaka",
       "place": "まちなかのお祭り",
-      "source": "https://www.at-nagasaki.jp/event",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
       "accepted": true
     },
     {
@@ -322,6 +322,17 @@
       "kind": "show",
       "place": "出島メッセ長崎",
       "source": "https://dejima-messe.jp/event",
+      "accepted": true
+    },
+    {
+      "name": "Lovefes",
+      "dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "start": null,
+      "place": "長崎水辺の森公園",
+      "source": "https://www.ktn.co.jp/special/lovefes/",
       "accepted": true
     },
     {
@@ -547,11 +558,11 @@
         "2026-11-11"
       ],
       "start": null,
-      "kind": "seminar",
+      "kind": "conference",
       "place": "出島メッセ長崎",
       "source": "https://dejima-messe.jp/event",
       "accepted": false,
-      "reason": "セミナー・発表会など"
+      "reason": "1日だけの会議"
     },
     {
       "name": "学研教室指導者定例研修会",
@@ -637,7 +648,7 @@
       "reason": "セミナー・発表会など"
     },
     {
-      "name": "不動技研グループ内内定者オリエンテーション",
+      "name": "不動技研グループ内定者オリエンテーション",
       "dates": [
         "2026-11-14"
       ],
@@ -646,7 +657,18 @@
       "place": "出島メッセ長崎",
       "source": "https://dejima-messe.jp/event",
       "accepted": false,
-      "reason": "名前がページの文章に見つからない"
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "NAGASAKI CITY JAZZ",
+      "dates": [
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "start": null,
+      "place": "長崎駅 かもめ広場ほか",
+      "source": "https://nagasaki-city-jazz.com/",
+      "accepted": true
     },
     {
       "name": "ピースボート地球一周の船旅説明会",
@@ -683,6 +705,16 @@
       "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
       "accepted": false,
       "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "2026長崎ベイサイドマラソン",
+      "dates": [
+        "2026-11-15"
+      ],
+      "start": "09:00",
+      "place": "長崎水辺の森公園",
+      "source": "https://www.city.nagasaki.lg.jp/page/20104.html",
+      "accepted": true
     },
     {
       "name": "長崎腎と薬剤研究会",
@@ -798,11 +830,11 @@
         "2026-11-27"
       ],
       "start": null,
-      "kind": "seminar",
+      "kind": "conference",
       "place": "出島メッセ長崎",
       "source": "https://dejima-messe.jp/event",
       "accepted": false,
-      "reason": "セミナー・発表会など"
+      "reason": "1日だけの会議"
     },
     {
       "name": "相続セミナー",

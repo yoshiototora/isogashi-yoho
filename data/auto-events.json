@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-10-04T02:41:10.376Z",
+  "researchedAt": "2026-10-04T04:04:13.310Z",
   "events": [
     {
       "name": "リャド大回顧展",
@@ -55,7 +55,7 @@
         "2026-10-03"
       ],
       "start": null,
-      "source": "https://www.at-nagasaki.jp/event",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
       "icon": "festival",
       "expected": 1000,
       "basis": "来場者数は不明（小規模として計上）",
@@ -83,7 +83,7 @@
         "2026-10-04"
       ],
       "start": null,
-      "source": "https://www.at-nagasaki.jp/event",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
       "icon": "festival",
       "expected": 1000,
       "basis": "来場者数は不明（小規模として計上）",
@@ -99,7 +99,7 @@
         "2026-10-09"
       ],
       "start": null,
-      "source": "https://www.at-nagasaki.jp/event",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
       "icon": "festival",
       "expected": 10000,
       "basis": "例年の人出から大型として登録（正確な人数は未確認）",
@@ -115,7 +115,7 @@
         "2026-10-09"
       ],
       "start": null,
-      "source": "https://www.at-nagasaki.jp/event",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
       "icon": "festival",
       "expected": 1000,
       "basis": "来場者数は不明（小規模として計上）",
@@ -189,7 +189,7 @@
         "2026-10-15"
       ],
       "start": null,
-      "source": "https://www.at-nagasaki.jp/event",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
       "icon": "festival",
       "expected": 1000,
       "basis": "来場者数は不明（小規模として計上）",
@@ -226,6 +226,21 @@
       "place": "出島メッセ長崎",
       "spot": "messe",
       "from": "出島メッセ長崎"
+    },
+    {
+      "name": "Lovefes",
+      "dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "start": null,
+      "source": "https://www.ktn.co.jp/special/lovefes/",
+      "icon": "live",
+      "expected": 55000,
+      "basis": "2024年の来場者数（2日間で11万人・主催のKTN発表）の1日あたり",
+      "place": "長崎水辺の森公園",
+      "spot": "mizube",
+      "from": "Lovefes"
     },
     {
       "name": "第54回日本救急医学会総会・学術集会",
@@ -361,6 +376,35 @@
       "place": "出島メッセ長崎",
       "spot": "messe",
       "from": "出島メッセ長崎"
+    },
+    {
+      "name": "NAGASAKI CITY JAZZ",
+      "dates": [
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "start": null,
+      "source": "https://nagasaki-city-jazz.com/",
+      "icon": "live",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "長崎駅 かもめ広場ほか",
+      "spot": "station",
+      "from": "NAGASAKI CITY JAZZ"
+    },
+    {
+      "name": "長崎ベイサイドマラソン",
+      "dates": [
+        "2026-11-15"
+      ],
+      "start": "09:00",
+      "source": "https://www.city.nagasaki.lg.jp/page/20104.html",
+      "icon": "event",
+      "expected": 2950,
+      "basis": "2026年の募集定員（ハーフ1,900人、10km 1,050人。1.9kmは含まず）",
+      "place": "長崎水辺の森公園",
+      "spot": "mizube",
+      "from": "長崎ベイサイドマラソン"
     },
     {
       "name": "第81回日本大腸肛門病学会学術集会",

@@ -9,9 +9,10 @@
 //   AIが読み取るデータ（npm run research-events で data/auto-events.json に取り込む）
 //     - イベント　：出島メッセ長崎、ブリックホール、まちなかのお祭り（長崎市の観光サイト）
 //       公式ページを Gemini に読み取らせ、機械的な確認を通ったものだけが入る
-//   手入力のデータ（このファイル）
-//     - イベント　：そのほかの会場。公式サイトで日程を確認して入力（出どころを各イベントに記載）
+//       毎年ある催し（Lovefes、長崎ベイサイドマラソン、NAGASAKI CITY JAZZ）は、それぞれの公式ページから開催日を読む
+//   手で補っているもの（このファイル）
 //     - 開始時刻　：スタジアムシティの一覧には載っていないので、確認できたものを手で補う
+// イベントそのものの手入力は、2026-10-04 にやめた。
 
 import auto from "./auto-events.json";
 import imported from "./imported.json";
@@ -105,24 +106,6 @@ export const BERTH_SPOT: Record<string, SpotId> = {
 // データを取り込んだ日時
 export const IMPORTED_AT: string = imported.fetchedAt;
 
-// 会場
-const MESSE = "出島メッセ長崎";
-const BRICK = "ブリックホール";
-
-// 日程の出どころ（2026-10-03 に確認）
-const MESSE_EVENTS = "https://dejima-messe.jp/event";
-const BRICK_EVENTS = "https://www.brickhall.jp/event/";
-
-// 想定来場者数の根拠
-const BRICK_CAPACITY = "ブリックホール大ホールの座席数（2,002席）";
-// 来場者数が分からない催事は、いちばん小さい区分（小規模）で数える
-const UNKNOWN = { expected: 1000, basis: "来場者数は不明（小規模として計上）" };
-const BRICK_SHOW = { expected: 2000, basis: BRICK_CAPACITY };
-
-// 同じ開始時刻・時刻なしの日をまとめて書くための小道具
-const on = (time: string | null, ...dates: string[]) =>
-  Object.fromEntries(dates.map((d) => [d, time]));
-
 // ───── 取り込んだイベント（長崎スタジアムシティ）
 
 type ImportedEvent = Omit<CityEvent, "days"> & { id: string; dates: string[] };
@@ -152,221 +135,18 @@ const importedEvents: CityEvent[] = (imported.events as ImportedEvent[]).map(
   }),
 );
 
-// ───── 手で入力しているイベント（2026年10〜11月分・2026-10-03 に確認）
-//   - 出島メッセ長崎　：公式カレンダーにある催事と学会
-//   - ブリックホール　：大ホールの興行（学校・市民団体の発表会は除く）
-//   - 長崎くんち
-//   - 長崎水辺の森公園：Lovefes、長崎ベイサイドマラソン
-//   - 長崎駅　　　　　：NAGASAKI CITY JAZZ（かもめ広場ほか）
-// 載せていないもの：グラバー園のランタンナイトのような長期開催、小さな会場の催事
-const manualEvents: CityEvent[] = [
-  // ── 長崎くんち（浜町・新地中華街ほか）
-  {
-    name: "長崎くんち",
-    icon: "festival",
-    days: on(null, "2026-10-07", "2026-10-08", "2026-10-09"),
-    // 正確な人出は未確認。例年3日間で数十万人とされ、どの数字でも「大型」に入る
-    expected: 100000,
-    basis: "例年の人出（3日間で数十万人とされる・未確認）",
-    place: "諏訪神社・中央公園・お旅所ほか",
-    source: "毎年10月7〜9日に開催",
-  },
-
-  // ── 長崎水辺の森公園（大浦・新地中華街の近く）
-  {
-    name: "Lovefes 2026",
-    icon: "live",
-    days: on(null, "2026-10-24", "2026-10-25"),
-    expected: 55000,
-    basis: "2024年の来場者数（2日間で11万人・主催のKTN発表）の1日あたり",
-    place: "長崎水辺の森公園",
-    source: "https://www.ktn.co.jp/special/lovefes/",
-  },
-  {
-    name: "長崎ベイサイドマラソン",
-    icon: "event",
-    days: on("9:00", "2026-11-15"),
-    expected: 2950,
-    basis: "募集定員（ハーフ1,900人、10km 1,050人。1.9kmは含まず）",
-    place: "長崎水辺の森公園",
-    source: "https://www.city.nagasaki.lg.jp/page/20104.html",
-  },
-
-  // ── 長崎駅
-  {
-    name: "NAGASAKI CITY JAZZ",
-    icon: "live",
-    days: on(null, "2026-11-14", "2026-11-15"),
-    ...UNKNOWN,
-    place: "長崎駅 かもめ広場ほか",
-    source: "https://nagasaki-city-jazz.com/",
-  },
-
-  // ── 出島メッセ長崎（長崎駅のとなり）
-  {
-    name: "リトル・ママフェスタ",
-    icon: "shopping",
-    days: on(null, "2026-10-03"),
-    ...UNKNOWN,
-    place: MESSE,
-    source: MESSE_EVENTS,
-  },
-  {
-    name: "日本呼吸器学会",
-    icon: "event",
-    days: on(null, "2026-10-09", "2026-10-10"),
-    ...UNKNOWN,
-    place: MESSE,
-    source: MESSE_EVENTS,
-  },
-  {
-    name: "Global Offshore Wind Summit",
-    icon: "event",
-    days: on(null, "2026-10-13", "2026-10-14", "2026-10-15"),
-    ...UNKNOWN,
-    place: MESSE,
-    source: MESSE_EVENTS,
-  },
-  {
-    name: "長崎水道展",
-    icon: "event",
-    days: on(null, "2026-10-21", "2026-10-22", "2026-10-23"),
-    ...UNKNOWN,
-    place: MESSE,
-    source: MESSE_EVENTS,
-  },
-  {
-    name: "日本救急医学会総会",
-    icon: "event",
-    days: on(null, "2026-10-27", "2026-10-28", "2026-10-29"),
-    ...UNKNOWN,
-    place: MESSE,
-    source: MESSE_EVENTS,
-  },
-  {
-    name: "ハーレーダビッドソン＆ロッキンミュージック",
-    icon: "live",
-    days: on(null, "2026-11-07", "2026-11-08"),
-    ...UNKNOWN,
-    place: MESSE,
-    source: MESSE_EVENTS,
-  },
-  {
-    name: "日本神経内視鏡学会",
-    icon: "event",
-    days: on(null, "2026-11-12", "2026-11-13"),
-    ...UNKNOWN,
-    place: MESSE,
-    source: MESSE_EVENTS,
-  },
-  {
-    name: "マイナビ インターンシップフェア",
-    icon: "event",
-    days: on(null, "2026-11-14"),
-    ...UNKNOWN,
-    place: MESSE,
-    source: MESSE_EVENTS,
-  },
-  {
-    name: "日本大腸肛門病学会",
-    icon: "event",
-    days: on(null, "2026-11-20", "2026-11-21"),
-    ...UNKNOWN,
-    place: MESSE,
-    source: MESSE_EVENTS,
-  },
-  {
-    name: "トコハピカーニバル",
-    icon: "shopping",
-    days: on(null, "2026-11-28", "2026-11-29"),
-    ...UNKNOWN,
-    place: MESSE,
-    source: MESSE_EVENTS,
-  },
-
-  // ── ブリックホール 大ホール（浦上）
-  {
-    name: "さらば青春の光 単独ライブ",
-    icon: "live",
-    days: on("14:00", "2026-10-03"),
-    ...BRICK_SHOW,
-    place: BRICK,
-    source: BRICK_EVENTS,
-  },
-  {
-    name: "玉置浩二 コンサート",
-    icon: "live",
-    days: on("17:30", "2026-10-04"),
-    ...BRICK_SHOW,
-    place: BRICK,
-    source: BRICK_EVENTS,
-  },
-  {
-    name: "辻井伸行 コンサート",
-    icon: "live",
-    days: { "2026-10-10": "15:00", "2026-10-11": "14:00" },
-    ...BRICK_SHOW,
-    place: BRICK,
-    source: BRICK_EVENTS,
-  },
-  {
-    name: "宮川大輔×ケンドーコバヤシ トークライブ",
-    icon: "live",
-    days: on("16:00", "2026-10-18"),
-    ...BRICK_SHOW,
-    place: BRICK,
-    source: BRICK_EVENTS,
-  },
-  {
-    name: "ゴスペラーズ コンサート",
-    icon: "live",
-    days: on("17:00", "2026-10-31"),
-    ...BRICK_SHOW,
-    place: BRICK,
-    source: BRICK_EVENTS,
-  },
-  {
-    name: "マリアセレン コンサート",
-    icon: "live",
-    days: on("18:30", "2026-11-06"),
-    ...BRICK_SHOW,
-    place: BRICK,
-    source: BRICK_EVENTS,
-  },
-  {
-    name: "スターダスト☆レビュー コンサート",
-    icon: "live",
-    days: on("17:00", "2026-11-07"),
-    ...BRICK_SHOW,
-    place: BRICK,
-    source: BRICK_EVENTS,
-  },
-];
-
 // ───── AIが読み取ったイベント（今月と来月）
 
 type AutoEvent = Omit<CityEvent, "days"> & { dates: string[]; start: string | null };
 
-// 手入力や取り込みと同じイベントは、そちらを優先する。
-// 「同じ日にあり、名前に4文字以上の同じ並びがある」ものを同じイベントとみなす。
-const squash = (text: string) => text.replace(/[\s・×＆&]/g, "");
-function sameEvent(a: AutoEvent, b: CityEvent) {
-  if (!a.dates.some((d) => d in b.days)) return false;
-  const [x, y] = [squash(a.name), squash(b.name)];
-  for (let i = 0; i + 4 <= y.length; i++) {
-    if (x.includes(y.slice(i, i + 4))) return true;
-  }
-  return false;
-}
-
-const autoEvents: CityEvent[] = (auto.events as AutoEvent[])
-  .filter((a) => ![...importedEvents, ...manualEvents].some((b) => sameEvent(a, b)))
-  .map(({ dates, start, ...event }) => ({
+const autoEvents: CityEvent[] = (auto.events as AutoEvent[]).map(
+  ({ dates, start, ...event }) => ({
     ...event,
     days: Object.fromEntries(dates.map((d) => [d, start])),
-  }));
+  }),
+);
 
-export const events: CityEvent[] = [...importedEvents, ...manualEvents, ...autoEvents];
+export const events: CityEvent[] = [...importedEvents, ...autoEvents];
 
 export type CruiseCall = {
   name: string; // 船名（読み取れなかったときは空）
