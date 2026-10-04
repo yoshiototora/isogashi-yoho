@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T11:38:58.629Z",
+  "fetchedAt": "2026-10-04T02:32:46.663Z",
   "sources": {
     "holidays": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
     "stadiumCity": "https://www.nagasakistadiumcity.com/event/",
@@ -1430,18 +1430,6 @@
     ]
   },
   "events": [
-    {
-      "id": "stadiumcity-51884",
-      "name": "RIZIN LANDMARK 16 in NAGASAKI",
-      "icon": "event",
-      "dates": [
-        "2026-10-03"
-      ],
-      "expected": 6000,
-      "basis": "ハピネスアリーナの収容人数（約6,000人）",
-      "place": "ハピネスアリーナ",
-      "source": "https://www.nagasakistadiumcity.com/event/"
-    },
     {
       "id": "stadiumcity-41994",
       "name": "長崎ヴェルカ vs 信州ブレイブウォリアーズ",
