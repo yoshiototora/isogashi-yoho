@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-paper: #faf8f3;
+  --color-ink: #16264f;
+  --color-shu: #f0432b;
+  --color-blush: #fce6e0;
+  --color-sky: #7ccbf4;
+  --font-sans:
+    var(--font-rounded), "Hiragino Maru Gothic ProN", "Hiragino Sans",
+    "Yu Gothic UI", "Meiryo", sans-serif;
+  --animate-sheet-up: sheet-up 0.32s cubic-bezier(0.2, 0.9, 0.3, 1);
+  --animate-fade-in: fade-in 0.25s ease-out;
+  --animate-bob: bob 2s ease-in-out infinite;
+}
+
+@keyframes sheet-up {
+  from {
+    transform: translateY(24px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes bob {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg) translateY(-2px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-bob {
+    animation: none;
+  }
+}
+
+body {
+  background: #f0ece3;
+  color: var(--color-ink);
+}

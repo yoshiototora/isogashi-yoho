@@ -1,0 +1,5 @@
+*.pptx
+SPEC.md
+.claude
+.env*
+scripts

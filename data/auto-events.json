@@ -1,0 +1,410 @@
+{
+  "researchedAt": "2026-10-04T01:41:52.807Z",
+  "events": [
+    {
+      "name": "リャド大回顧展",
+      "dates": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
+    },
+    {
+      "name": "クリスチャン・リース・ラッセン作品 特別展 極",
+      "dates": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
+    },
+    {
+      "name": "さらば青春の光 SUTEGORO 2026",
+      "dates": [
+        "2026-10-03"
+      ],
+      "start": "14:00",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
+    },
+    {
+      "name": "長崎くんち 庭見世",
+      "dates": [
+        "2026-10-03"
+      ],
+      "start": null,
+      "source": "https://www.at-nagasaki.jp/event",
+      "icon": "festival",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "まちなか",
+      "spot": "machinaka",
+      "from": "まちなかのお祭り"
+    },
+    {
+      "name": "玉置浩二 with 故郷楽団 Concert Tour 2026 ファンファーレ！！",
+      "dates": [
+        "2026-10-04"
+      ],
+      "start": "17:30",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
+    },
+    {
+      "name": "長崎くんち 人数揃い",
+      "dates": [
+        "2026-10-04"
+      ],
+      "start": null,
+      "source": "https://www.at-nagasaki.jp/event",
+      "icon": "festival",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "まちなか",
+      "spot": "machinaka",
+      "from": "まちなかのお祭り"
+    },
+    {
+      "name": "長崎くんち",
+      "dates": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "start": null,
+      "source": "https://www.at-nagasaki.jp/event",
+      "icon": "festival",
+      "expected": 10000,
+      "basis": "例年の人出から大型として登録（正確な人数は未確認）",
+      "place": "まちなか",
+      "spot": "machinaka",
+      "from": "まちなかのお祭り"
+    },
+    {
+      "name": "長崎くんち 庭先回り",
+      "dates": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "start": null,
+      "source": "https://www.at-nagasaki.jp/event",
+      "icon": "festival",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "まちなか",
+      "spot": "machinaka",
+      "from": "まちなかのお祭り"
+    },
+    {
+      "name": "第97回日本呼吸器学会・日本結核 非結核性抗酸菌症学会・日本サルコイドーシス／肉芽腫性疾患学会 九州支部秋季学術講演会",
+      "dates": [
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
+    },
+    {
+      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 01.辻井伸行コンサート",
+      "dates": [
+        "2026-10-10"
+      ],
+      "start": "15:00",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
+    },
+    {
+      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 02.辻井伸行コンサート",
+      "dates": [
+        "2026-10-11"
+      ],
+      "start": "14:00",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
+    },
+    {
+      "name": "Global Offshore Wind Summit-Japan 2026（世界洋上風力サミット）",
+      "dates": [
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
+    },
+    {
+      "name": "竹ン芸",
+      "dates": [
+        "2026-10-14",
+        "2026-10-15"
+      ],
+      "start": null,
+      "source": "https://www.at-nagasaki.jp/event",
+      "icon": "festival",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "まちなか",
+      "spot": "machinaka",
+      "from": "まちなかのお祭り"
+    },
+    {
+      "name": "宮川大輔×ケンドーコバヤシ トークライブ あんぎゃー 長崎公演",
+      "dates": [
+        "2026-10-18"
+      ],
+      "start": "16:00",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
+    },
+    {
+      "name": "2026長崎水道展",
+      "dates": [
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
+    },
+    {
+      "name": "第54回日本救急医学会総会・学術集会",
+      "dates": [
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
+    },
+    {
+      "name": "ゴスペラーズ坂ツアー2026 “UNIVER5OUL”",
+      "dates": [
+        "2026-10-31"
+      ],
+      "start": "17:00",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
+    },
+    {
+      "name": "日本建築行政会議 全国会議",
+      "dates": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
+    },
+    {
+      "name": "マリアセレン コンサート",
+      "dates": [
+        "2026-11-06"
+      ],
+      "start": "18:30",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
+    },
+    {
+      "name": "RETROPATH -International Workshop on Retroviral Pathogenesis-",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
+    },
+    {
+      "name": "第4回 ハーレーダビッドソン＆ロッキンミュージックin出島メッセ長崎",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
+    },
+    {
+      "name": "スターダスト☆レビュー 45周年ツアー2025〜27「星屑冒険王」",
+      "dates": [
+        "2026-11-07"
+      ],
+      "start": "17:00",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
+    },
+    {
+      "name": "第33回日本神経内視鏡学会",
+      "dates": [
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
+    },
+    {
+      "name": "マイナビインターンシップ＆キャリア発見フェア 長崎会場",
+      "dates": [
+        "2026-11-14"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
+    },
+    {
+      "name": "第81回日本大腸肛門病学会学術集会",
+      "dates": [
+        "2026-11-20",
+        "2026-11-21"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
+    },
+    {
+      "name": "トコハピカーニバル トコトン♡推しに夢中",
+      "dates": [
+        "2026-11-28",
+        "2026-11-29"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
+    },
+    {
+      "name": "角笛シルエット劇場",
+      "dates": [
+        "2026-11-30"
+      ],
+      "start": "10:30",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
+    }
+  ]
+}

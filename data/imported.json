@@ -1,0 +1,1871 @@
+{
+  "fetchedAt": "2026-10-03T11:38:58.629Z",
+  "sources": {
+    "holidays": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
+    "stadiumCity": "https://www.nagasakistadiumcity.com/event/",
+    "cruises": "https://www.nagasaki-port.jp/nagasaki_cruiseschedule/R08_cruiseschedule.pdf"
+  },
+  "holidays": {
+    "2026-01-01": "元日",
+    "2026-01-12": "成人の日",
+    "2026-02-11": "建国記念の日",
+    "2026-02-23": "天皇誕生日",
+    "2026-03-20": "春分の日",
+    "2026-04-29": "昭和の日",
+    "2026-05-03": "憲法記念日",
+    "2026-05-04": "みどりの日",
+    "2026-05-05": "こどもの日",
+    "2026-05-06": "休日",
+    "2026-07-20": "海の日",
+    "2026-08-11": "山の日",
+    "2026-09-21": "敬老の日",
+    "2026-09-22": "休日",
+    "2026-09-23": "秋分の日",
+    "2026-10-12": "スポーツの日",
+    "2026-11-03": "文化の日",
+    "2026-11-23": "勤労感謝の日",
+    "2027-01-01": "元日",
+    "2027-01-11": "成人の日",
+    "2027-02-11": "建国記念の日",
+    "2027-02-23": "天皇誕生日",
+    "2027-03-21": "春分の日",
+    "2027-03-22": "休日",
+    "2027-04-29": "昭和の日",
+    "2027-05-03": "憲法記念日",
+    "2027-05-04": "みどりの日",
+    "2027-05-05": "こどもの日",
+    "2027-07-19": "海の日",
+    "2027-08-11": "山の日",
+    "2027-09-20": "敬老の日",
+    "2027-09-23": "秋分の日",
+    "2027-10-11": "スポーツの日",
+    "2027-11-03": "文化の日",
+    "2027-11-23": "勤労感謝の日"
+  },
+  "cruises": {
+    "2026-01-18": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-01-26": [
+      {
+        "name": "コスタ・セレーナ",
+        "tonnage": 114261,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      },
+      {
+        "name": "ミツイ オーシャン フジ",
+        "tonnage": 32477,
+        "arrive": "10:30",
+        "depart": "19:00",
+        "berth": "出島"
+      }
+    ],
+    "2026-02-07": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-02-12": [
+      {
+        "name": "コスタ・デリチョーザ",
+        "tonnage": 92720,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-02-17": [
+      {
+        "name": "レガッタ",
+        "tonnage": 30277,
+        "arrive": "7:00",
+        "depart": "17:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-02-22": [
+      {
+        "name": "ウェステルダム",
+        "tonnage": 82862,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-02-28": [
+      {
+        "name": "レガッタ",
+        "tonnage": 30277,
+        "arrive": "10:00",
+        "depart": "20:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-02": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-04": [
+      {
+        "name": "スター・ナビゲーター",
+        "tonnage": 75338,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-09": [
+      {
+        "name": "セブンシーズ・エクスプローラー",
+        "tonnage": 55254,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-12": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-13": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:30",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-14": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-16": [
+      {
+        "name": "ルミナーラ",
+        "tonnage": 48072,
+        "arrive": "8:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-18": [
+      {
+        "name": "アザマラ・パスート",
+        "tonnage": 30277,
+        "arrive": "10:00",
+        "depart": "20:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-19": [
+      {
+        "name": "ウェステルダム",
+        "tonnage": 82862,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      },
+      {
+        "name": "アマデア",
+        "tonnage": 29008,
+        "arrive": "7:00",
+        "depart": "19:00",
+        "berth": "出島"
+      }
+    ],
+    "2026-03-20": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "8:00",
+        "depart": "17:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-21": [
+      {
+        "name": "セブンシーズ・エクスプローラー",
+        "tonnage": 55254,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-23": [
+      {
+        "name": "ル・ソレアル",
+        "tonnage": 10992,
+        "arrive": "7:30",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-24": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-25": [
+      {
+        "name": "マイン・シフ６",
+        "tonnage": 98811,
+        "arrive": "7:30",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-26": [
+      {
+        "name": "MSCマグニフィカ",
+        "tonnage": 95381,
+        "arrive": "9:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      },
+      {
+        "name": "ル・ソレアル",
+        "tonnage": 10992,
+        "arrive": "7:30",
+        "depart": "17:00",
+        "berth": "出島"
+      }
+    ],
+    "2026-03-27": [
+      {
+        "name": "ルミナーラ",
+        "tonnage": 48072,
+        "arrive": "8:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-03-29": [
+      {
+        "name": "クリスタル・シンフォニー",
+        "tonnage": 51068,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-02": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-03": [
+      {
+        "name": "ルミナーラ",
+        "tonnage": 48072,
+        "arrive": "8:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-04": [
+      {
+        "name": "スペクトラム・オブ・ザ・シーズ",
+        "tonnage": 169379,
+        "arrive": "7:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      },
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "9:00",
+        "depart": "17:00",
+        "berth": "出島"
+      }
+    ],
+    "2026-04-05": [
+      {
+        "name": "アザマラ・パスート",
+        "tonnage": 30277,
+        "arrive": "11:00",
+        "depart": "19:30",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-06": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-07": [
+      {
+        "name": "シーボーン・アンコール",
+        "tonnage": 41865,
+        "arrive": "7:00",
+        "depart": "17:00",
+        "berth": "松が枝"
+      },
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "出島"
+      }
+    ],
+    "2026-04-10": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "10:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-11": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-12": [
+      {
+        "name": "レガッタ",
+        "tonnage": 30277,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      },
+      {
+        "name": "VIKING YIDUN",
+        "tonnage": 47842,
+        "arrive": "7:00",
+        "depart": "17:00",
+        "berth": "出島"
+      }
+    ],
+    "2026-04-14": [
+      {
+        "name": "アザマラ・パスート",
+        "tonnage": 30277,
+        "arrive": "8:00",
+        "depart": "20:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-15": [
+      {
+        "name": "セブンシーズ・エクスプローラー",
+        "tonnage": 55254,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-17": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-18": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-21": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "10:00",
+        "depart": "18:30",
+        "berth": "松が枝"
+      },
+      {
+        "name": "アイランド・スカイ",
+        "tonnage": 4200,
+        "arrive": "9:00",
+        "depart": "17:00",
+        "berth": "出島"
+      }
+    ],
+    "2026-04-23": [
+      {
+        "name": "マイン・シフ６",
+        "tonnage": 98811,
+        "arrive": "7:30",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-25": [
+      {
+        "name": "シルバー・ムーン",
+        "tonnage": 40844,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-26": [
+      {
+        "name": "オベーション・オブ・ザ・シーズ",
+        "tonnage": 168637,
+        "arrive": "6:30",
+        "depart": "22:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-28": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "8:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-04-30": [
+      {
+        "name": "クリスタル・シンフォニー",
+        "tonnage": 51068,
+        "arrive": "7:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-02": [
+      {
+        "name": "アイランド・スカイ",
+        "tonnage": 4200,
+        "arrive": "8:00",
+        "depart": "22:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-03": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-04": [
+      {
+        "name": "ヘリテージ・アドベンチャラー",
+        "tonnage": 8445,
+        "arrive": "11:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-05": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-08": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-10": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:30",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-13": [
+      {
+        "name": "スター・ナビゲーター",
+        "tonnage": 75338,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-14": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-15": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-16": [
+      {
+        "name": "バイキング・オリオン",
+        "tonnage": 47861,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-17": [
+      {
+        "name": "クリスタル・シンフォニー",
+        "tonnage": 51068,
+        "arrive": "7:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      },
+      {
+        "name": "ル・ソレアル",
+        "tonnage": 10992,
+        "arrive": "8:00",
+        "depart": "21:00",
+        "berth": "出島"
+      }
+    ],
+    "2026-05-21": [
+      {
+        "name": "ル・ソレアル",
+        "tonnage": 10992,
+        "arrive": "7:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-22": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-23": [
+      {
+        "name": "飛鳥Ⅲ",
+        "tonnage": 52265,
+        "arrive": "8:00",
+        "depart": "23:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-24": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-26": [
+      {
+        "name": "コスタ・セレーナ",
+        "tonnage": 114261,
+        "arrive": "8:30",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-27": [
+      {
+        "name": "スター・ナビゲーター",
+        "tonnage": 75338,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-29": [
+      {
+        "name": "ヘリテージ・アドベンチャラー",
+        "tonnage": 8445,
+        "arrive": "7:00",
+        "depart": "17:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-05-30": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-06-01": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-06-02": [
+      {
+        "name": "クリスタル・シンフォニー",
+        "tonnage": 51068,
+        "arrive": "7:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-06-07": [
+      {
+        "name": "コスタ・セレーナ",
+        "tonnage": 114261,
+        "arrive": "9:00",
+        "depart": "20:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-06-12": [
+      {
+        "name": "ハンセアティック・インスピレーション",
+        "tonnage": 15651,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-06-13": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-06-14": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:30",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-06-15": [
+      {
+        "name": "アイランド・スカイ",
+        "tonnage": 4200,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-06-16": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "10:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-06-19": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "9:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-06-24": [
+      {
+        "name": "ヘリテージ・アドベンチャラー",
+        "tonnage": 8445,
+        "arrive": "7:00",
+        "depart": "10:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-06-27": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:00",
+        "depart": "17:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-07-04": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "10:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-07-08": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:30",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-07-11": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-07-18": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-07-20": [
+      {
+        "name": "ミツイ オーシャン フジ",
+        "tonnage": 32477,
+        "arrive": "9:30",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-07-21": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:30",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-07-29": [
+      {
+        "name": "スター・ナビゲーター",
+        "tonnage": 75338,
+        "arrive": "6:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-07-30": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "10:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-08-01": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-08-04": [
+      {
+        "name": "パシフィック・ワールド",
+        "tonnage": 77441,
+        "arrive": "6:00",
+        "depart": "21:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-08-12": [
+      {
+        "name": "スター・ナビゲーター",
+        "tonnage": 75338,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-08-13": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:30",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-08-14": [
+      {
+        "name": "スペクトラム・オブ・ザ・シーズ",
+        "tonnage": 169379,
+        "arrive": "7:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-08-16": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-08-22": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-08-26": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:30",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-08-28": [
+      {
+        "name": "ミツイ オーシャン フジ",
+        "tonnage": 32477,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-08-29": [
+      {
+        "name": "コスタ・セレーナ",
+        "tonnage": 114261,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-08-31": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-02": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-03": [
+      {
+        "name": "アドラ・メディタラニア",
+        "tonnage": 85619,
+        "arrive": "13:00",
+        "depart": "22:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-04": [
+      {
+        "name": "スペクトラム・オブ・ザ・シーズ",
+        "tonnage": 169379,
+        "arrive": "8:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-06": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:30",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-07": [
+      {
+        "name": "アドラ・メディタラニア",
+        "tonnage": 85619,
+        "arrive": "9:00",
+        "depart": "20:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-11": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-12": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-13": [
+      {
+        "name": "ドリーム",
+        "tonnage": 77499,
+        "arrive": "12:00",
+        "depart": "22:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-15": [
+      {
+        "name": "ナショナル・ジオグラフィック・レゾリューション",
+        "tonnage": 12786,
+        "arrive": "8:00",
+        "depart": "17:00",
+        "berth": "松が枝"
+      },
+      {
+        "name": "SH ミネルバ",
+        "tonnage": 10617,
+        "arrive": "7:00",
+        "depart": "14:30",
+        "berth": "出島"
+      }
+    ],
+    "2026-09-17": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "10:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-18": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:30",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-19": [
+      {
+        "name": "アドラ・メディタラニア",
+        "tonnage": 85619,
+        "arrive": "10:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-21": [
+      {
+        "name": "スター・シーカー",
+        "tonnage": 10204,
+        "arrive": "10:00",
+        "depart": "22:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-22": [
+      {
+        "name": "ミツイ オーシャン フジ",
+        "tonnage": 32477,
+        "arrive": "8:00",
+        "depart": "17:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-23": [
+      {
+        "name": "アドラ・メディタラニア",
+        "tonnage": 85619,
+        "arrive": "10:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-24": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-27": [
+      {
+        "name": "",
+        "tonnage": 12786,
+        "arrive": "8:00",
+        "depart": "16:30",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-09-30": [
+      {
+        "name": "スター・ナビゲーター",
+        "tonnage": 75338,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-01": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "7:30",
+        "depart": "18:00",
+        "berth": "松が枝"
+      },
+      {
+        "name": "スター・シーカー",
+        "tonnage": 10204,
+        "arrive": "10:00",
+        "depart": "19:00",
+        "berth": "出島"
+      }
+    ],
+    "2026-10-03": [
+      {
+        "name": "スペクトラム・オブ・ザ・シーズ",
+        "tonnage": 169379,
+        "arrive": "7:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-06": [
+      {
+        "name": "バイキング・ヴィーナス",
+        "tonnage": 47842,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-07": [
+      {
+        "name": "飛鳥Ⅲ",
+        "tonnage": 52265,
+        "arrive": "8:00",
+        "depart": "21:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-08": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-09": [
+      {
+        "name": "アドラ・メディタラニア",
+        "tonnage": 85619,
+        "arrive": "12:00",
+        "depart": "20:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-10": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-11": [
+      {
+        "name": "スター・シーカー",
+        "tonnage": 10204,
+        "arrive": "9:00",
+        "depart": "22:00",
+        "berth": "松が枝"
+      },
+      {
+        "name": "アザマラ・パスート",
+        "tonnage": 30277,
+        "arrive": "11:00",
+        "depart": "20:00",
+        "berth": "出島"
+      }
+    ],
+    "2026-10-12": [
+      {
+        "name": "コスタ・セレーナ",
+        "tonnage": 114261,
+        "arrive": "8:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-16": [
+      {
+        "name": "ルミナーラ",
+        "tonnage": 48072,
+        "arrive": "8:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-17": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-20": [
+      {
+        "name": "ナビゲーター・オブ・ザ・シーズ",
+        "tonnage": null,
+        "arrive": "8:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-21": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "9:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      },
+      {
+        "name": "スター・シーカー",
+        "tonnage": 10204,
+        "arrive": "10:00",
+        "depart": "19:00",
+        "berth": "出島"
+      }
+    ],
+    "2026-10-22": [
+      {
+        "name": "飛鳥Ⅱ",
+        "tonnage": 50444,
+        "arrive": "9:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-25": [
+      {
+        "name": "セレブリティ・ミレニアム",
+        "tonnage": 91011,
+        "arrive": "8:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-26": [
+      {
+        "name": "ルミナーラ",
+        "tonnage": 48072,
+        "arrive": "8:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-27": [
+      {
+        "name": "セブンシーズ・エクスプローラー",
+        "tonnage": 55254,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-28": [
+      {
+        "name": "ウェステルダム",
+        "tonnage": 82862,
+        "arrive": "8:00",
+        "depart": "20:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-10-31": [
+      {
+        "name": "スター・シーカー",
+        "tonnage": 10204,
+        "arrive": "10:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-11-03": [
+      {
+        "name": "シルバー・ムーン",
+        "tonnage": 40844,
+        "arrive": "8:00",
+        "depart": "17:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-11-06": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-11-12": [
+      {
+        "name": "シーボーン・アンコール",
+        "tonnage": 41865,
+        "arrive": "7:00",
+        "depart": "17:00",
+        "berth": "松が枝"
+      },
+      {
+        "name": "ルミナーラ",
+        "tonnage": 48072,
+        "arrive": "8:00",
+        "depart": "19:00",
+        "berth": "出島"
+      }
+    ],
+    "2026-11-17": [
+      {
+        "name": "ビジオ",
+        "tonnage": 102784,
+        "arrive": "14:00",
+        "depart": "22:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-11-18": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-11-19": [
+      {
+        "name": "ノルウェージャン・ジェイド",
+        "tonnage": 93558,
+        "arrive": "7:00",
+        "depart": "17:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-11-23": [
+      {
+        "name": "ノルウェージャン・ジェイド",
+        "tonnage": 93558,
+        "arrive": "7:00",
+        "depart": "17:00",
+        "berth": "松が枝"
+      },
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "出島"
+      }
+    ],
+    "2026-11-25": [
+      {
+        "name": "スター・ナビゲーター",
+        "tonnage": 75338,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-11-26": [
+      {
+        "name": "スペクトラム・オブ・ザ・シーズ",
+        "tonnage": 169379,
+        "arrive": "8:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-11-27": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-11-28": [
+      {
+        "name": "ダイヤモンド・プリンセス",
+        "tonnage": 115906,
+        "arrive": "7:00",
+        "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-12-14": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-12-24": [
+      {
+        "name": "スペクトラム・オブ・ザ・シーズ",
+        "tonnage": 169379,
+        "arrive": "7:00",
+        "depart": "19:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-12-28": [
+      {
+        "name": "イースタン・ビーナス",
+        "tonnage": 26594,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "stadiumcity-51884",
+      "name": "RIZIN LANDMARK 16 in NAGASAKI",
+      "icon": "event",
+      "dates": [
+        "2026-10-03"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-41994",
+      "name": "長崎ヴェルカ vs 信州ブレイブウォリアーズ",
+      "icon": "event",
+      "dates": [
+        "2026-10-08"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-41992",
+      "name": "長崎ヴェルカ vs 群馬クレインサンダーズ",
+      "icon": "event",
+      "dates": [
+        "2026-10-10"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-41996",
+      "name": "長崎ヴェルカ vs 神戸ストークス",
+      "icon": "event",
+      "dates": [
+        "2026-10-12"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-53268",
+      "name": "ハピネスジャム 2026",
+      "icon": "live",
+      "dates": [
+        "2026-10-17"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-41999",
+      "name": "長崎ヴェルカ vs アルティーリ千葉",
+      "icon": "event",
+      "dates": [
+        "2026-10-19"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-50555",
+      "name": "V・ファーレン長崎 vs サンフレッチェ広島",
+      "icon": "event",
+      "dates": [
+        "2026-10-21"
+      ],
+      "expected": 19000,
+      "basis": "今季ホーム5試合の観客数（18,015〜20,489人）の平均",
+      "place": "ピーススタジアム",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42001",
+      "name": "長崎ヴェルカ vs 琉球ゴールデンキングス",
+      "icon": "event",
+      "dates": [
+        "2026-10-26"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-48275",
+      "name": "第13回 TALK ＆ LIVE ザ・ゴールデンステージ produced by Japanet ＜五木ひろし＞",
+      "icon": "live",
+      "dates": [
+        "2026-10-31"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-50333",
+      "name": "GORO NOGUCHI CONCERT TOUR 2026「 I sing songs !!～歌がある限り～」",
+      "icon": "live",
+      "dates": [
+        "2026-11-01"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-50547",
+      "name": "V・ファーレン長崎 vs 東京ヴェルディ",
+      "icon": "event",
+      "dates": [
+        "2026-11-01"
+      ],
+      "expected": 19000,
+      "basis": "今季ホーム5試合の観客数（18,015〜20,489人）の平均",
+      "place": "ピーススタジアム",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-52130",
+      "name": "広瀬香美Premium Live “Kohmi Cosmos”",
+      "icon": "live",
+      "dates": [
+        "2026-11-07"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42003",
+      "name": "長崎ヴェルカ vs 仙台89ERS",
+      "icon": "event",
+      "dates": [
+        "2026-11-09"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42005",
+      "name": "長崎ヴェルカ vs シーホース三河",
+      "icon": "event",
+      "dates": [
+        "2026-11-17"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-48007",
+      "name": "BRIDGE2026",
+      "icon": "live",
+      "dates": [
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-50549",
+      "name": "V・ファーレン長崎 vs 川崎フロンターレ",
+      "icon": "event",
+      "dates": [
+        "2026-11-25"
+      ],
+      "expected": 19000,
+      "basis": "今季ホーム5試合の観客数（18,015〜20,489人）の平均",
+      "place": "ピーススタジアム",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-52172",
+      "name": "令和8年冬巡業大相撲長崎場所",
+      "icon": "event",
+      "dates": [
+        "2026-12-03"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-50551",
+      "name": "V・ファーレン長崎 vs 清水エスパルス",
+      "icon": "event",
+      "dates": [
+        "2026-12-05"
+      ],
+      "expected": 19000,
+      "basis": "今季ホーム5試合の観客数（18,015〜20,489人）の平均",
+      "place": "ピーススタジアム",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42007",
+      "name": "長崎ヴェルカ vs レバンガ北海道",
+      "icon": "event",
+      "dates": [
+        "2026-12-06"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42009",
+      "name": "長崎ヴェルカ vs 滋賀レイクス",
+      "icon": "event",
+      "dates": [
+        "2026-12-12",
+        "2026-12-13"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42011",
+      "name": "長崎ヴェルカ vs アルティーリ千葉",
+      "icon": "event",
+      "dates": [
+        "2026-12-16"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-50553",
+      "name": "V・ファーレン長崎 vs 浦和レッズ",
+      "icon": "event",
+      "dates": [
+        "2026-12-19"
+      ],
+      "expected": 19000,
+      "basis": "今季ホーム5試合の観客数（18,015〜20,489人）の平均",
+      "place": "ピーススタジアム",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42013",
+      "name": "長崎ヴェルカ vs 秋田ノーザンハピネッツ",
+      "icon": "event",
+      "dates": [
+        "2026-12-30"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42015",
+      "name": "長崎ヴェルカ vs 広島ドラゴンフライズ",
+      "icon": "event",
+      "dates": [
+        "2027-01-02",
+        "2027-01-03"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42017",
+      "name": "長崎ヴェルカ vs アルバルク東京",
+      "icon": "event",
+      "dates": [
+        "2027-01-24"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42019",
+      "name": "長崎ヴェルカ vs 千葉ジェッツ",
+      "icon": "event",
+      "dates": [
+        "2027-01-27"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42021",
+      "name": "長崎ヴェルカ vs 川崎ブレイブサンダース",
+      "icon": "event",
+      "dates": [
+        "2027-02-05"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42024",
+      "name": "長崎ヴェルカ vs 川崎ブレイブサンダース",
+      "icon": "event",
+      "dates": [
+        "2027-02-07"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42026",
+      "name": "長崎ヴェルカ vs 大阪エヴェッサ",
+      "icon": "event",
+      "dates": [
+        "2027-02-17"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42029",
+      "name": "長崎ヴェルカ vs 名古屋ダイヤモンドドルフィンズ",
+      "icon": "event",
+      "dates": [
+        "2027-03-05"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42031",
+      "name": "長崎ヴェルカ vs 名古屋ダイヤモンドドルフィンズ",
+      "icon": "event",
+      "dates": [
+        "2027-03-07"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42033",
+      "name": "長崎ヴェルカ vs 佐賀バルーナーズ",
+      "icon": "event",
+      "dates": [
+        "2027-03-19",
+        "2027-03-20"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42035",
+      "name": "長崎ヴェルカ vs 茨城ロボッツ",
+      "icon": "event",
+      "dates": [
+        "2027-03-31"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42038",
+      "name": "長崎ヴェルカ vs 東京サンロッカーズ",
+      "icon": "event",
+      "dates": [
+        "2027-04-05"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42040",
+      "name": "長崎ヴェルカ vs 京都ハンナリーズ",
+      "icon": "event",
+      "dates": [
+        "2027-04-13"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-42043",
+      "name": "長崎ヴェルカ vs 三遠ネオフェニックス",
+      "icon": "event",
+      "dates": [
+        "2027-04-23",
+        "2027-04-24"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    }
+  ]
+}

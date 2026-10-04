@@ -1,0 +1,55 @@
+# データを週に1回、自動で取り込み直す。
+#   - クルーズ船・祝日・スタジアムシティ：公式のデータをプログラムで取り込む
+#   - そのほかのイベント：公式ページを Gemini に読み取らせ、機械的な確認を通ったものを反映する
+# 変更があればコミットする（Vercel と連携していれば、そのまま再公開される）。
+# どこかで失敗したときは、取れた分だけ反映したうえで「失敗」として終わる（GitHub からメールが届く）。
+#
+# 準備：GitHub の Settings → Secrets and variables → Actions に、
+#       GEMINI_API_KEY という名前で Gemini のAPIキーを登録しておく。
+name: データを取り込み直す
+
+on:
+  schedule:
+    # 毎週月曜 6:00（日本時間）
+    - cron: "0 21 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: クルーズ船・祝日・スタジアムシティを取り込む
+        id: import
+        continue-on-error: true
+        run: npm run import-data
+      - name: 公式ページからイベントを読み取る
+        id: research
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: npm run research-events
+      - name: 変更があればコミットする
+        run: |
+          if git diff --quiet -- data; then
+            echo "変更なし"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "データを自動で取り込み直した"
+          git push
+      - name: 失敗があれば知らせる
+        if: steps.import.outcome == 'failure' || steps.research.outcome == 'failure'
+        run: |
+          echo "取り込めなかったデータがあります。上のステップの記録を確認してください。"
+          exit 1
