@@ -41,3 +41,8 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# 発表資料と作業メモは、リポジトリに入れない
+*.pptx
+slides-src/
+想定問答_技術.md
