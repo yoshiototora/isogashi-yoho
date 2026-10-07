@@ -1,40 +1,6 @@
 {
-  "researchedAt": "2026-10-04T04:04:13.310Z",
+  "researchedAt": "2026-10-07T00:28:06.728Z",
   "events": [
-    {
-      "name": "リャド大回顧展",
-      "dates": [
-        "2026-10-02",
-        "2026-10-03",
-        "2026-10-04",
-        "2026-10-05"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
-    },
-    {
-      "name": "クリスチャン・リース・ラッセン作品 特別展 極",
-      "dates": [
-        "2026-10-02",
-        "2026-10-03",
-        "2026-10-04",
-        "2026-10-05"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
-    },
     {
       "name": "さらば青春の光 SUTEGORO 2026",
       "dates": [
@@ -90,6 +56,34 @@
       "place": "まちなか",
       "spot": "machinaka",
       "from": "まちなかのお祭り"
+    },
+    {
+      "name": "マリアセレン コンサート",
+      "dates": [
+        "2026-10-06"
+      ],
+      "start": "18:30",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
+    },
+    {
+      "name": "スターダスト☆レビュー 45周年ツアー2025〜27「星屑冒険王」",
+      "dates": [
+        "2026-10-07"
+      ],
+      "start": "17:00",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
     },
     {
       "name": "長崎くんち",
@@ -228,6 +222,20 @@
       "from": "出島メッセ長崎"
     },
     {
+      "name": "RIBBON’S SHOW vol.19",
+      "dates": [
+        "2026-10-22"
+      ],
+      "start": "13:00",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
+    },
+    {
       "name": "Lovefes",
       "dates": [
         "2026-10-24",
@@ -257,6 +265,20 @@
       "place": "出島メッセ長崎",
       "spot": "messe",
       "from": "出島メッセ長崎"
+    },
+    {
+      "name": "角笛シルエット劇場",
+      "dates": [
+        "2026-10-30"
+      ],
+      "start": "10:30",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
     },
     {
       "name": "ゴスペラーズ坂ツアー2026 “UNIVER5OUL”",
@@ -289,22 +311,9 @@
       "from": "出島メッセ長崎"
     },
     {
-      "name": "マリアセレン コンサート",
-      "dates": [
-        "2026-11-06"
-      ],
-      "start": "18:30",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "icon": "live",
-      "expected": 2000,
-      "basis": "ブリックホール大ホールの座席数（2,002席）",
-      "place": "ブリックホール",
-      "spot": "brick",
-      "from": "ブリックホール"
-    },
-    {
       "name": "RETROPATH -International Workshop on Retroviral Pathogenesis-",
       "dates": [
+        "2026-11-06",
         "2026-11-07",
         "2026-11-08",
         "2026-11-09",
@@ -333,20 +342,6 @@
       "place": "出島メッセ長崎",
       "spot": "messe",
       "from": "出島メッセ長崎"
-    },
-    {
-      "name": "スターダスト☆レビュー 45周年ツアー2025〜27「星屑冒険王」",
-      "dates": [
-        "2026-11-07"
-      ],
-      "start": "17:00",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "icon": "live",
-      "expected": 2000,
-      "basis": "ブリックホール大ホールの座席数（2,002席）",
-      "place": "ブリックホール",
-      "spot": "brick",
-      "from": "ブリックホール"
     },
     {
       "name": "第33回日本神経内視鏡学会",
@@ -435,20 +430,6 @@
       "place": "出島メッセ長崎",
       "spot": "messe",
       "from": "出島メッセ長崎"
-    },
-    {
-      "name": "角笛シルエット劇場",
-      "dates": [
-        "2026-11-30"
-      ],
-      "start": "10:30",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "icon": "live",
-      "expected": 2000,
-      "basis": "ブリックホール大ホールの座席数（2,002席）",
-      "place": "ブリックホール",
-      "spot": "brick",
-      "from": "ブリックホール"
     }
   ]
 }

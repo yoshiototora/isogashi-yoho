@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-04T02:37:45.488Z",
+  "fetchedAt": "2026-10-07T00:20:41.956Z",
   "sources": {
     "holidays": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
     "stadiumCity": "https://www.nagasakistadiumcity.com/event/",
@@ -1191,15 +1191,6 @@
         "berth": "松が枝"
       }
     ],
-    "2026-10-16": [
-      {
-        "name": "ルミナーラ",
-        "tonnage": 48072,
-        "arrive": "8:00",
-        "depart": "19:00",
-        "berth": "松が枝"
-      }
-    ],
     "2026-10-17": [
       {
         "name": "ダイヤモンド・プリンセス",
@@ -1467,6 +1458,18 @@
       "source": "https://www.nagasakistadiumcity.com/event/"
     },
     {
+      "id": "stadiumcity-56109",
+      "name": "EASL 2026-27シーズングループステージ 長崎ヴェルカVS釜山KCCイージス",
+      "icon": "event",
+      "dates": [
+        "2026-10-14"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
       "id": "stadiumcity-53268",
       "name": "ハピネスジャム 2026",
       "icon": "live",
@@ -1703,6 +1706,20 @@
       "dates": [
         "2027-01-02",
         "2027-01-03"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-55738",
+      "name": "長崎スタジアムシティpresents CHILL CLASSIC CONCERT &#8211; Best Memories 1980-2020 &#8211;",
+      "icon": "live",
+      "dates": [
+        "2027-01-09",
+        "2027-01-10",
+        "2027-01-11"
       ],
       "expected": 6000,
       "basis": "ハピネスアリーナの収容人数（約6,000人）",
