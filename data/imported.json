@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-07T00:20:41.956Z",
+  "fetchedAt": "2026-10-08T00:42:04.017Z",
   "sources": {
     "holidays": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
     "stadiumCity": "https://www.nagasakistadiumcity.com/event/",
@@ -1161,7 +1161,7 @@
       {
         "name": "イースタン・ビーナス",
         "tonnage": 26594,
-        "arrive": "8:00",
+        "arrive": "8:30",
         "depart": "18:00",
         "berth": "松が枝"
       }
@@ -1203,7 +1203,7 @@
     "2026-10-20": [
       {
         "name": "ナビゲーター・オブ・ザ・シーズ",
-        "tonnage": null,
+        "tonnage": 139999,
         "arrive": "8:00",
         "depart": "19:00",
         "berth": "松が枝"
