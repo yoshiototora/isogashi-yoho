@@ -1,6 +1,6 @@
 {
-  "researchedAt": "2026-10-08T00:46:12.300Z",
-  "model": "gemini-flash-latest",
+  "researchedAt": "2026-10-09T01:08:36.879Z",
+  "model": "gemini-3.5-flash",
   "months": [
     "2026年10月",
     "2026年11月"
@@ -36,11 +36,10 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "other",
+      "area": "machinaka",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": false,
-      "reason": "対象の場所ではない"
+      "accepted": true
     },
     {
       "name": "玉置浩二 with 故郷楽団 Concert Tour 2026 ファンファーレ！！",
@@ -60,11 +59,10 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "other",
+      "area": "machinaka",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": false,
-      "reason": "対象の場所ではない"
+      "accepted": true
     },
     {
       "name": "長崎くんち",
@@ -75,11 +73,10 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "other",
+      "area": "machinaka",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": false,
-      "reason": "対象の場所ではない"
+      "accepted": true
     },
     {
       "name": "長崎くんち 庭先回り",
@@ -90,11 +87,10 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "other",
+      "area": "machinaka",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": false,
-      "reason": "対象の場所ではない"
+      "accepted": true
     },
     {
       "name": "第97回日本呼吸器学会・日本結核 非結核性抗酸菌症学会・日本サルコイドーシス／肉芽腫性疾患学会 九州支部秋季学術講演会",
@@ -211,11 +207,10 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "other",
+      "area": "machinaka",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": false,
-      "reason": "対象の場所ではない"
+      "accepted": true
     },
     {
       "name": "瓊浦高等学校吹奏楽部 第22回定期演奏会",
@@ -567,7 +562,7 @@
       "accepted": true
     },
     {
-      "name": "県民公開講座「みて、きいて、健康チェック！脳卒中と心臓病」",
+      "name": "2026年県民公開講座",
       "dates": [
         "2026-11-14"
       ],

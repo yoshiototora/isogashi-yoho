@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-08T00:42:04.017Z",
+  "fetchedAt": "2026-10-09T00:57:43.729Z",
   "sources": {
     "holidays": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
     "stadiumCity": "https://www.nagasakistadiumcity.com/event/",
@@ -1421,18 +1421,6 @@
     ]
   },
   "events": [
-    {
-      "id": "stadiumcity-41994",
-      "name": "長崎ヴェルカ vs 信州ブレイブウォリアーズ",
-      "icon": "event",
-      "dates": [
-        "2026-10-08"
-      ],
-      "expected": 6000,
-      "basis": "ハピネスアリーナの収容人数（約6,000人）",
-      "place": "ハピネスアリーナ",
-      "source": "https://www.nagasakistadiumcity.com/event/"
-    },
     {
       "id": "stadiumcity-41992",
       "name": "長崎ヴェルカ vs 群馬クレインサンダーズ",
