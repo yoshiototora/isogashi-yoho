@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-09T00:57:43.729Z",
+  "fetchedAt": "2026-10-10T00:28:51.367Z",
   "sources": {
     "holidays": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
     "stadiumCity": "https://www.nagasakistadiumcity.com/event/",
@@ -1213,8 +1213,8 @@
       {
         "name": "ダイヤモンド・プリンセス",
         "tonnage": 115906,
-        "arrive": "9:00",
-        "depart": "18:00",
+        "arrive": "11:00",
+        "depart": "20:00",
         "berth": "松が枝"
       },
       {
