@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-10-11T00:07:02.955Z",
+  "researchedAt": "2026-10-12T00:14:00.511Z",
   "events": [
     {
       "name": "さらば青春の光 SUTEGORO 2026",
@@ -248,6 +248,20 @@
       "dates": [
         "2026-11-12",
         "2026-11-13"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
+    },
+    {
+      "name": "マイナビインターンシップ＆キャリア発見フェア 長崎会場",
+      "dates": [
+        "2026-11-14"
       ],
       "start": null,
       "source": "https://dejima-messe.jp/event",

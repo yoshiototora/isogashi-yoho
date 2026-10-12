@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-10-11T00:07:02.955Z",
+  "researchedAt": "2026-10-12T00:14:00.511Z",
   "model": "gemini-flash-latest",
   "months": [
     "2026年10月",
@@ -106,66 +106,6 @@
       "place": "ブリックホール",
       "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
       "accepted": true
-    },
-    {
-      "name": "滋慶学園福岡・学校説明会&入学選考試験会場",
-      "dates": [
-        "2026-10-11"
-      ],
-      "start": null,
-      "kind": "seminar",
-      "place": "出島メッセ長崎",
-      "source": "https://dejima-messe.jp/event",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
-    },
-    {
-      "name": "MLA THA 頂 -ITADAKI- in 長崎",
-      "dates": [
-        "2026-10-11"
-      ],
-      "start": null,
-      "kind": "seminar",
-      "place": "出島メッセ長崎",
-      "source": "https://dejima-messe.jp/event",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
-    },
-    {
-      "name": "第52回 JCOA研修会 in 長崎",
-      "dates": [
-        "2026-10-11"
-      ],
-      "start": null,
-      "kind": "seminar",
-      "place": "出島メッセ長崎",
-      "source": "https://dejima-messe.jp/event",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
-    },
-    {
-      "name": "コスモスグループ就職説明会",
-      "dates": [
-        "2026-10-11"
-      ],
-      "start": null,
-      "kind": "seminar",
-      "place": "出島メッセ長崎",
-      "source": "https://dejima-messe.jp/event",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
-    },
-    {
-      "name": "美味しいフィットネス",
-      "dates": [
-        "2026-10-11"
-      ],
-      "start": null,
-      "kind": "seminar",
-      "place": "出島メッセ長崎",
-      "source": "https://dejima-messe.jp/event",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
     },
     {
       "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 02.辻井伸行コンサート",
@@ -564,11 +504,10 @@
         "2026-11-14"
       ],
       "start": null,
-      "kind": "seminar",
+      "kind": "show",
       "place": "出島メッセ長崎",
       "source": "https://dejima-messe.jp/event",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
+      "accepted": true
     },
     {
       "name": "2026年県民公開講座",
