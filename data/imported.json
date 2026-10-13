@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-12T00:12:02.317Z",
+  "fetchedAt": "2026-10-13T02:24:17.612Z",
   "sources": {
     "holidays": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
     "stadiumCity": "https://www.nagasakistadiumcity.com/event/",
@@ -1220,7 +1220,7 @@
       {
         "name": "スター・シーカー",
         "tonnage": 10204,
-        "arrive": "10:00",
+        "arrive": "9:00",
         "depart": "19:00",
         "berth": "出島"
       }
@@ -1421,18 +1421,6 @@
     ]
   },
   "events": [
-    {
-      "id": "stadiumcity-41996",
-      "name": "長崎ヴェルカ vs 神戸ストークス",
-      "icon": "event",
-      "dates": [
-        "2026-10-12"
-      ],
-      "expected": 6000,
-      "basis": "ハピネスアリーナの収容人数（約6,000人）",
-      "place": "ハピネスアリーナ",
-      "source": "https://www.nagasakistadiumcity.com/event/"
-    },
     {
       "id": "stadiumcity-56109",
       "name": "EASL 2026-27シーズングループステージ 長崎ヴェルカVS釜山KCCイージス",
