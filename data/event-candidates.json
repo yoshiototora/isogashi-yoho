@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-10-13T02:26:59.784Z",
+  "researchedAt": "2026-10-14T00:17:19.212Z",
   "model": "gemini-flash-latest",
   "months": [
     "2026年10月",
@@ -736,6 +736,18 @@
     },
     {
       "name": "長崎県高等学校進路指導協議会長崎地区総会",
+      "dates": [
+        "2026-11-27"
+      ],
+      "start": null,
+      "kind": "seminar",
+      "place": "出島メッセ長崎",
+      "source": "https://dejima-messe.jp/event",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "長崎県私立幼稚園・認定こども園連合会 令和8年度次世代研修会",
       "dates": [
         "2026-11-27"
       ],
