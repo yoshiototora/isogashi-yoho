@@ -1,23 +1,11 @@
 {
-  "researchedAt": "2026-10-14T23:42:54.396Z",
+  "researchedAt": "2026-10-15T23:40:39.263Z",
   "model": "gemini-flash-latest",
   "months": [
     "2026年10月",
     "2026年11月"
   ],
   "events": [
-    {
-      "name": "長崎アニママンドリン合奏団第98回定期演奏会",
-      "dates": [
-        "2026-10-01"
-      ],
-      "start": "14:00",
-      "kind": "community",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
-    },
     {
       "name": "令和8年度長崎県立長崎西高等学校芸術鑑賞会",
       "dates": [
@@ -79,28 +67,6 @@
       "reason": "対象の場所ではない"
     },
     {
-      "name": "マリアセレン コンサート",
-      "dates": [
-        "2026-10-06"
-      ],
-      "start": "18:30",
-      "kind": "show",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": true
-    },
-    {
-      "name": "スターダスト☆レビュー 45周年ツアー2025〜27「星屑冒険王」",
-      "dates": [
-        "2026-10-07"
-      ],
-      "start": "17:00",
-      "kind": "show",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": true
-    },
-    {
       "name": "長崎くんち",
       "dates": [
         "2026-10-07",
@@ -129,17 +95,6 @@
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
       "accepted": false,
       "reason": "対象の場所ではない"
-    },
-    {
-      "name": "長崎民俗舞踊研究会 民踊大会",
-      "dates": [
-        "2026-10-08"
-      ],
-      "start": "12:30",
-      "kind": "show",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": true
     },
     {
       "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 01.辻井伸行コンサート",
@@ -191,17 +146,6 @@
       "reason": "対象の場所ではない"
     },
     {
-      "name": "第109回かとうフィーリングアートバレエリサイタル",
-      "dates": [
-        "2026-10-15"
-      ],
-      "start": "12:00",
-      "kind": "show",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": true
-    },
-    {
       "name": "瓊浦高等学校吹奏楽部 第22回定期演奏会",
       "dates": [
         "2026-10-17"
@@ -210,6 +154,18 @@
       "kind": "community",
       "place": "ブリックホール",
       "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "宅建試験2026",
+      "dates": [
+        "2026-10-18"
+      ],
+      "start": null,
+      "kind": "seminar",
+      "place": "出島メッセ長崎",
+      "source": "https://dejima-messe.jp/event",
       "accepted": false,
       "reason": "セミナー・発表会など"
     },
@@ -225,18 +181,6 @@
       "accepted": true
     },
     {
-      "name": "第74回長崎市民生委員・児童委員大会",
-      "dates": [
-        "2026-10-19"
-      ],
-      "start": "13:30",
-      "kind": "conference",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": false,
-      "reason": "1日だけの会議"
-    },
-    {
       "name": "2026長崎水道展",
       "dates": [
         "2026-10-21",
@@ -250,27 +194,15 @@
       "accepted": true
     },
     {
-      "name": "RIBBON’S SHOW vol.19",
+      "name": "パブリックビューイング「石木ダム意見を聞く場」",
       "dates": [
-        "2026-10-22"
+        "2026-10-24"
       ],
-      "start": "13:00",
+      "start": null,
       "kind": "show",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "place": "出島メッセ長崎",
+      "source": "https://dejima-messe.jp/event",
       "accepted": true
-    },
-    {
-      "name": "サムライブラスオルケスター 第14回定期演奏会",
-      "dates": [
-        "2026-10-23"
-      ],
-      "start": "14:00",
-      "kind": "community",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
     },
     {
       "name": "Lovefes",
@@ -309,36 +241,6 @@
       "accepted": true
     },
     {
-      "name": "【自主事業】ながさき麺博",
-      "dates": [
-        "2026-10-29",
-        "2026-10-30",
-        "2026-10-31",
-        "2026-11-01",
-        "2026-11-02",
-        "2026-11-03",
-        "2026-11-04",
-        "2026-11-05"
-      ],
-      "start": null,
-      "kind": "show",
-      "place": "出島メッセ長崎",
-      "source": "https://dejima-messe.jp/event",
-      "accepted": true
-    },
-    {
-      "name": "長崎交響楽団 第104回定期演奏会",
-      "dates": [
-        "2026-10-29"
-      ],
-      "start": "14:00",
-      "kind": "community",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
-    },
-    {
       "name": "足場の組み立て等作業従事者特別教育",
       "dates": [
         "2026-10-30"
@@ -363,18 +265,22 @@
       "reason": "セミナー・発表会など"
     },
     {
-      "name": "角笛シルエット劇場",
+      "name": "ながさき麺博",
       "dates": [
-        "2026-10-30"
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04"
       ],
-      "start": "10:30",
+      "start": null,
       "kind": "show",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "place": "出島メッセ長崎",
+      "source": "https://dejima-messe.jp/event",
       "accepted": true
     },
     {
-      "name": "【自主事業】出島メッセ長崎 五彩FES ～長崎の多彩な魅力が集う2日間～",
+      "name": "出島メッセ長崎 五彩FES ～長崎の多彩な魅力が集う2日間～",
       "dates": [
         "2026-10-31",
         "2026-11-01"
@@ -395,6 +301,18 @@
       "place": "ブリックホール",
       "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
       "accepted": true
+    },
+    {
+      "name": "長崎アニママンドリン合奏団第98回定期演奏会",
+      "dates": [
+        "2026-11-01"
+      ],
+      "start": "14:00",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
     },
     {
       "name": "TF-CBTイントロダクトリー・トレーニング",
@@ -462,6 +380,17 @@
       "reason": "セミナー・発表会など"
     },
     {
+      "name": "マリアセレン コンサート",
+      "dates": [
+        "2026-11-06"
+      ],
+      "start": "18:30",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": true
+    },
+    {
       "name": "市民公開講演会「スマホが脳を壊す? ～スマホとの賢いつきあい方～」",
       "dates": [
         "2026-11-07"
@@ -483,6 +412,17 @@
       "kind": "show",
       "place": "出島メッセ長崎",
       "source": "https://dejima-messe.jp/event",
+      "accepted": true
+    },
+    {
+      "name": "スターダスト☆レビュー 45周年ツアー2025〜27「星屑冒険王」",
+      "dates": [
+        "2026-11-07"
+      ],
+      "start": "17:00",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
       "accepted": true
     },
     {
@@ -508,6 +448,18 @@
       "source": "https://dejima-messe.jp/event",
       "accepted": false,
       "reason": "1日だけの会議"
+    },
+    {
+      "name": "長崎民俗舞踊研究会 民踊大会",
+      "dates": [
+        "2026-11-08"
+      ],
+      "start": "12:30",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
     },
     {
       "name": "（株）ライフプラザパートナーズ長崎FA営業部主催 オープンセミナー",
@@ -688,6 +640,31 @@
       "reason": "セミナー・発表会など"
     },
     {
+      "name": "健康講座「免疫力アップの秘訣はこれだ！！」",
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ],
+      "start": null,
+      "kind": "seminar",
+      "place": "出島メッセ長崎",
+      "source": "https://dejima-messe.jp/event",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "第109回かとうフィーリングアートバレエリサイタル",
+      "dates": [
+        "2026-11-15"
+      ],
+      "start": "12:00",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
       "name": "長崎ベイサイドマラソン",
       "dates": [
         "2026-11-15"
@@ -703,11 +680,11 @@
         "2026-11-16"
       ],
       "start": null,
-      "kind": "seminar",
+      "kind": "conference",
       "place": "出島メッセ長崎",
       "source": "https://dejima-messe.jp/event",
       "accepted": false,
-      "reason": "セミナー・発表会など"
+      "reason": "1日だけの会議"
     },
     {
       "name": "過労死等防止対策推進シンポジウム",
@@ -746,6 +723,18 @@
       "reason": "セミナー・発表会など"
     },
     {
+      "name": "第74回長崎市民生委員・児童委員大会",
+      "dates": [
+        "2026-11-19"
+      ],
+      "start": "13:30",
+      "kind": "conference",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": false,
+      "reason": "1日だけの会議"
+    },
+    {
       "name": "第81回日本大腸肛門病学会学術集会",
       "dates": [
         "2026-11-20",
@@ -756,6 +745,30 @@
       "place": "出島メッセ長崎",
       "source": "https://dejima-messe.jp/event",
       "accepted": true
+    },
+    {
+      "name": "RIBBON’S SHOW vol.19",
+      "dates": [
+        "2026-11-22"
+      ],
+      "start": "13:00",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "サムライブラスオルケスター 第14回定期演奏会",
+      "dates": [
+        "2026-11-23"
+      ],
+      "start": "14:00",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
     },
     {
       "name": "循環器連携漢方セミナーin長崎",
@@ -842,6 +855,18 @@
       "reason": "セミナー・発表会など"
     },
     {
+      "name": "長崎交響楽団 第104回定期演奏会",
+      "dates": [
+        "2026-11-29"
+      ],
+      "start": "14:00",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
       "name": "シスメックスヘマトロジーセミナーin長崎",
       "dates": [
         "2026-11-30"
@@ -852,6 +877,17 @@
       "source": "https://dejima-messe.jp/event",
       "accepted": false,
       "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "角笛シルエット劇場",
+      "dates": [
+        "2026-11-30"
+      ],
+      "start": "10:30",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": true
     }
   ]
 }
