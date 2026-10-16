@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-10-15T23:40:39.263Z",
+  "researchedAt": "2026-10-16T23:18:05.814Z",
   "events": [
     {
       "name": "さらば青春の光 SUTEGORO 2026",
@@ -329,6 +329,20 @@
       "place": "長崎水辺の森公園",
       "spot": "mizube",
       "from": "長崎ベイサイドマラソン"
+    },
+    {
+      "name": "外国人材つながるフェア",
+      "dates": [
+        "2026-11-17"
+      ],
+      "start": null,
+      "source": "https://dejima-messe.jp/event",
+      "icon": "event",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "出島メッセ長崎",
+      "spot": "messe",
+      "from": "出島メッセ長崎"
     },
     {
       "name": "第81回日本大腸肛門病学会学術集会",
