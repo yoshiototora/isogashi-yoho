@@ -1,6 +1,6 @@
 {
-  "researchedAt": "2026-10-16T23:18:05.814Z",
-  "model": "gemini-flash-latest",
+  "researchedAt": "2026-10-17T22:56:25.254Z",
+  "model": "gemini-flash-lite-latest",
   "months": [
     "2026年10月",
     "2026年11月"
@@ -181,7 +181,7 @@
       "accepted": true
     },
     {
-      "name": "2026長崎水道展",
+      "name": "一般公開 2026長崎水道展",
       "dates": [
         "2026-10-21",
         "2026-10-22",
@@ -341,7 +341,7 @@
       "accepted": true
     },
     {
-      "name": "RETROPATH -International Workshop on Retroviral Pathogenesis-",
+      "name": "関係者 RETROPATH -International Workshop on Retroviral Pathogenesis-",
       "dates": [
         "2026-11-06",
         "2026-11-07",
@@ -545,7 +545,7 @@
       "accepted": true
     },
     {
-      "name": "2026年県民公開講座",
+      "name": "事前申込 2026年県民公開講座",
       "dates": [
         "2026-11-14"
       ],
@@ -610,7 +610,7 @@
         "2026-11-14",
         "2026-11-15"
       ],
-      "start": null,
+      "start": "10:00",
       "place": "長崎駅 かもめ広場ほか",
       "source": "https://nagasaki-city-jazz.com/",
       "accepted": true
@@ -818,7 +818,7 @@
       "reason": "セミナー・発表会など"
     },
     {
-      "name": "トコハピカーニバル トコトン♡推しに夢中",
+      "name": "一般公開 トコハピカーニバル トコトン♡推しに夢中",
       "dates": [
         "2026-11-28",
         "2026-11-29"

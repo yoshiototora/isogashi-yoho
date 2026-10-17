@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-10-16T23:18:05.814Z",
+  "researchedAt": "2026-10-17T22:56:25.254Z",
   "events": [
     {
       "name": "さらば青春の光 SUTEGORO 2026",
@@ -88,7 +88,7 @@
       "from": "ブリックホール"
     },
     {
-      "name": "2026長崎水道展",
+      "name": "一般公開 2026長崎水道展",
       "dates": [
         "2026-10-21",
         "2026-10-22",
@@ -212,7 +212,7 @@
       "from": "出島メッセ長崎"
     },
     {
-      "name": "RETROPATH -International Workshop on Retroviral Pathogenesis-",
+      "name": "関係者 RETROPATH -International Workshop on Retroviral Pathogenesis-",
       "dates": [
         "2026-11-06",
         "2026-11-07",
@@ -307,7 +307,7 @@
         "2026-11-14",
         "2026-11-15"
       ],
-      "start": null,
+      "start": "10:00",
       "source": "https://nagasaki-city-jazz.com/",
       "icon": "live",
       "expected": 1000,
@@ -360,7 +360,7 @@
       "from": "出島メッセ長崎"
     },
     {
-      "name": "トコハピカーニバル トコトン♡推しに夢中",
+      "name": "一般公開 トコハピカーニバル トコトン♡推しに夢中",
       "dates": [
         "2026-11-28",
         "2026-11-29"
