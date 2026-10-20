@@ -1,22 +1,11 @@
 {
-  "researchedAt": "2026-10-20T00:09:36.533Z",
+  "researchedAt": "2026-10-20T23:40:18.779Z",
   "model": "gemini-flash-latest",
   "months": [
     "2026年10月",
     "2026年11月"
   ],
   "events": [
-    {
-      "name": "長崎四国八十八ヶ所巡り",
-      "dates": [],
-      "start": null,
-      "kind": "ceremony",
-      "area": "machinaka",
-      "place": "まちなかのお祭り",
-      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": false,
-      "reason": "日付がない"
-    },
     {
       "name": "令和8年度長崎県立長崎西高等学校芸術鑑賞会",
       "dates": [
@@ -47,10 +36,11 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "machinaka",
+      "area": "other",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": true
+      "accepted": false,
+      "reason": "対象の場所ではない"
     },
     {
       "name": "玉置浩二 with 故郷楽団 Concert Tour 2026 ファンファーレ！！",
@@ -70,10 +60,11 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "machinaka",
+      "area": "other",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": true
+      "accepted": false,
+      "reason": "対象の場所ではない"
     },
     {
       "name": "長崎くんち",
@@ -84,10 +75,11 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "machinaka",
+      "area": "other",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": true
+      "accepted": false,
+      "reason": "対象の場所ではない"
     },
     {
       "name": "長崎くんち 庭先回り",
@@ -98,13 +90,14 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "machinaka",
+      "area": "other",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": true
+      "accepted": false,
+      "reason": "対象の場所ではない"
     },
     {
-      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 01.辻井伸行コンサート",
+      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 01.辻井伸行コンサート >",
       "dates": [
         "2026-10-10"
       ],
@@ -115,7 +108,7 @@
       "accepted": true
     },
     {
-      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 02.辻井伸行コンサート",
+      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 02.辻井伸行コンサート >",
       "dates": [
         "2026-10-11"
       ],
@@ -146,10 +139,11 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "machinaka",
+      "area": "other",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": true
+      "accepted": false,
+      "reason": "対象の場所ではない"
     },
     {
       "name": "瓊浦高等学校吹奏楽部 第22回定期演奏会",
@@ -297,6 +291,19 @@
       "accepted": true
     },
     {
+      "name": "大中尾棚田火祭り",
+      "dates": [
+        "2026-10-31"
+      ],
+      "start": null,
+      "kind": "festival",
+      "area": "other",
+      "place": "まちなかのお祭り",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
+      "accepted": false,
+      "reason": "対象の場所ではない"
+    },
+    {
       "name": "長崎アニママンドリン合奏団第98回定期演奏会",
       "dates": [
         "2026-11-01"
@@ -418,6 +425,20 @@
       "place": "ブリックホール",
       "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
       "accepted": true
+    },
+    {
+      "name": "丸山華まつり",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "start": null,
+      "kind": "festival",
+      "area": "other",
+      "place": "まちなかのお祭り",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
+      "accepted": false,
+      "reason": "対象の場所ではない"
     },
     {
       "name": "第７回長崎県薬剤師学術大会",

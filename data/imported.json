@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-20T00:05:57.972Z",
+  "fetchedAt": "2026-10-20T23:36:47.163Z",
   "sources": {
     "holidays": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
     "stadiumCity": "https://www.nagasakistadiumcity.com/event/",
@@ -1511,6 +1511,19 @@
       "icon": "event",
       "dates": [
         "2026-11-09"
+      ],
+      "expected": 6000,
+      "basis": "ハピネスアリーナの収容人数（約6,000人）",
+      "place": "ハピネスアリーナ",
+      "source": "https://www.nagasakistadiumcity.com/event/"
+    },
+    {
+      "id": "stadiumcity-56543",
+      "name": "2026ｰ27 大同生命SV.LEAGUE ウルフドッグス名古屋 vs 日本製鉄堺ブレイザーズ",
+      "icon": "event",
+      "dates": [
+        "2026-11-14",
+        "2026-11-15"
       ],
       "expected": 6000,
       "basis": "ハピネスアリーナの収容人数（約6,000人）",
