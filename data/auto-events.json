@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-10-20T23:40:18.779Z",
+  "researchedAt": "2026-10-22T00:00:46.174Z",
   "events": [
     {
       "name": "さらば青春の光 SUTEGORO 2026",
@@ -16,6 +16,20 @@
       "from": "ブリックホール"
     },
     {
+      "name": "長崎くんち 庭見世",
+      "dates": [
+        "2026-10-03"
+      ],
+      "start": null,
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
+      "icon": "festival",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "まちなか",
+      "spot": "machinaka",
+      "from": "まちなかのお祭り"
+    },
+    {
       "name": "玉置浩二 with 故郷楽団 Concert Tour 2026 ファンファーレ！！",
       "dates": [
         "2026-10-04"
@@ -30,7 +44,53 @@
       "from": "ブリックホール"
     },
     {
-      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 01.辻井伸行コンサート >",
+      "name": "長崎くんち 人数揃い",
+      "dates": [
+        "2026-10-04"
+      ],
+      "start": null,
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
+      "icon": "festival",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "まちなか",
+      "spot": "machinaka",
+      "from": "まちなかのお祭り"
+    },
+    {
+      "name": "長崎くんち",
+      "dates": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "start": null,
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
+      "icon": "festival",
+      "expected": 10000,
+      "basis": "例年の人出から大型として登録（正確な人数は未確認）",
+      "place": "まちなか",
+      "spot": "machinaka",
+      "from": "まちなかのお祭り"
+    },
+    {
+      "name": "長崎くんち 庭先回り",
+      "dates": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "start": null,
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
+      "icon": "festival",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "まちなか",
+      "spot": "machinaka",
+      "from": "まちなかのお祭り"
+    },
+    {
+      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 01.辻井伸行コンサート",
       "dates": [
         "2026-10-10"
       ],
@@ -44,7 +104,7 @@
       "from": "ブリックホール"
     },
     {
-      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 02.辻井伸行コンサート >",
+      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 02.辻井伸行コンサート",
       "dates": [
         "2026-10-11"
       ],
@@ -72,6 +132,21 @@
       "place": "出島メッセ長崎",
       "spot": "messe",
       "from": "出島メッセ長崎"
+    },
+    {
+      "name": "竹ン芸",
+      "dates": [
+        "2026-10-14",
+        "2026-10-15"
+      ],
+      "start": null,
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
+      "icon": "festival",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "まちなか",
+      "spot": "machinaka",
+      "from": "まちなかのお祭り"
     },
     {
       "name": "宮川大輔×ケンドーコバヤシ トークライブ あんぎゃー 長崎公演",
@@ -271,6 +346,21 @@
       "place": "ブリックホール",
       "spot": "brick",
       "from": "ブリックホール"
+    },
+    {
+      "name": "丸山華まつり",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "start": null,
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
+      "icon": "festival",
+      "expected": 1000,
+      "basis": "来場者数は不明（小規模として計上）",
+      "place": "まちなか",
+      "spot": "machinaka",
+      "from": "まちなかのお祭り"
     },
     {
       "name": "第33回日本神経内視鏡学会",

@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-10-20T23:40:18.779Z",
+  "researchedAt": "2026-10-22T00:00:46.174Z",
   "model": "gemini-flash-latest",
   "months": [
     "2026年10月",
@@ -36,11 +36,10 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "other",
+      "area": "machinaka",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": false,
-      "reason": "対象の場所ではない"
+      "accepted": true
     },
     {
       "name": "玉置浩二 with 故郷楽団 Concert Tour 2026 ファンファーレ！！",
@@ -60,11 +59,10 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "other",
+      "area": "machinaka",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": false,
-      "reason": "対象の場所ではない"
+      "accepted": true
     },
     {
       "name": "長崎くんち",
@@ -75,11 +73,10 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "other",
+      "area": "machinaka",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": false,
-      "reason": "対象の場所ではない"
+      "accepted": true
     },
     {
       "name": "長崎くんち 庭先回り",
@@ -90,14 +87,13 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "other",
+      "area": "machinaka",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": false,
-      "reason": "対象の場所ではない"
+      "accepted": true
     },
     {
-      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 01.辻井伸行コンサート >",
+      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 01.辻井伸行コンサート",
       "dates": [
         "2026-10-10"
       ],
@@ -108,7 +104,7 @@
       "accepted": true
     },
     {
-      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 02.辻井伸行コンサート >",
+      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 02.辻井伸行コンサート",
       "dates": [
         "2026-10-11"
       ],
@@ -139,11 +135,10 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "other",
+      "area": "machinaka",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": false,
-      "reason": "対象の場所ではない"
+      "accepted": true
     },
     {
       "name": "瓊浦高等学校吹奏楽部 第22回定期演奏会",
@@ -434,11 +429,10 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "other",
+      "area": "machinaka",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": false,
-      "reason": "対象の場所ではない"
+      "accepted": true
     },
     {
       "name": "第７回長崎県薬剤師学術大会",
@@ -695,11 +689,11 @@
         "2026-11-16"
       ],
       "start": null,
-      "kind": "seminar",
+      "kind": "conference",
       "place": "出島メッセ長崎",
       "source": "https://dejima-messe.jp/event",
       "accepted": false,
-      "reason": "セミナー・発表会など"
+      "reason": "1日だけの会議"
     },
     {
       "name": "過労死等防止対策推進シンポジウム",
