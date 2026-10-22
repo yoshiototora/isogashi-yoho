@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-21T23:53:47.115Z",
+  "fetchedAt": "2026-10-22T23:52:34.184Z",
   "sources": {
     "holidays": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
     "stadiumCity": "https://www.nagasakistadiumcity.com/event/",
@@ -1274,7 +1274,7 @@
       {
         "name": "スター・シーカー",
         "tonnage": 10204,
-        "arrive": "10:00",
+        "arrive": "9:00",
         "depart": "18:00",
         "berth": "松が枝"
       }
@@ -1401,6 +1401,15 @@
         "berth": "松が枝"
       }
     ],
+    "2026-12-15": [
+      {
+        "name": "アドラ・マジック・シティ",
+        "tonnage": 136201,
+        "arrive": "8:00",
+        "depart": "18:00",
+        "berth": "松が枝"
+      }
+    ],
     "2026-12-24": [
       {
         "name": "スペクトラム・オブ・ザ・シーズ",
@@ -1421,18 +1430,6 @@
     ]
   },
   "events": [
-    {
-      "id": "stadiumcity-50555",
-      "name": "V・ファーレン長崎 vs サンフレッチェ広島",
-      "icon": "event",
-      "dates": [
-        "2026-10-21"
-      ],
-      "expected": 19000,
-      "basis": "今季ホーム5試合の観客数（18,015〜20,489人）の平均",
-      "place": "ピーススタジアム",
-      "source": "https://www.nagasakistadiumcity.com/event/"
-    },
     {
       "id": "stadiumcity-56511",
       "name": "ウィンターカップ2026",

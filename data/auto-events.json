@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-10-22T00:00:46.174Z",
+  "researchedAt": "2026-10-22T23:58:41.171Z",
   "events": [
     {
       "name": "さらば青春の光 SUTEGORO 2026",
@@ -118,22 +118,6 @@
       "from": "ブリックホール"
     },
     {
-      "name": "Global Offshore Wind Summit-Japan 2026（世界洋上風力サミット）",
-      "dates": [
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-15"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
-    },
-    {
       "name": "竹ン芸",
       "dates": [
         "2026-10-14",
@@ -163,100 +147,6 @@
       "from": "ブリックホール"
     },
     {
-      "name": "2026長崎水道展",
-      "dates": [
-        "2026-10-21",
-        "2026-10-22",
-        "2026-10-23"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
-    },
-    {
-      "name": "パブリックビューイング「石木ダム意見を聞く場」",
-      "dates": [
-        "2026-10-24"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
-    },
-    {
-      "name": "Lovefes",
-      "dates": [
-        "2026-10-24",
-        "2026-10-25"
-      ],
-      "start": null,
-      "source": "https://www.ktn.co.jp/special/lovefes/",
-      "icon": "live",
-      "expected": 55000,
-      "basis": "2024年の来場者数（2日間で11万人・主催のKTN発表）の1日あたり",
-      "place": "長崎水辺の森公園",
-      "spot": "mizube",
-      "from": "Lovefes"
-    },
-    {
-      "name": "第54回日本救急医学会総会・学術集会",
-      "dates": [
-        "2026-10-27",
-        "2026-10-28",
-        "2026-10-29"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
-    },
-    {
-      "name": "ながさき麺博",
-      "dates": [
-        "2026-10-31",
-        "2026-11-01",
-        "2026-11-02",
-        "2026-11-03",
-        "2026-11-04"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
-    },
-    {
-      "name": "出島メッセ長崎 五彩FES ～長崎の多彩な魅力が集う2日間～",
-      "dates": [
-        "2026-10-31",
-        "2026-11-01"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
-    },
-    {
       "name": "ゴスペラーズ坂ツアー2026 “UNIVER5OUL”",
       "dates": [
         "2026-10-31"
@@ -271,40 +161,6 @@
       "from": "ブリックホール"
     },
     {
-      "name": "日本建築行政会議 全国会議",
-      "dates": [
-        "2026-11-04",
-        "2026-11-05",
-        "2026-11-06"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
-    },
-    {
-      "name": "RETROPATH -International Workshop on Retroviral Pathogenesis-",
-      "dates": [
-        "2026-11-06",
-        "2026-11-07",
-        "2026-11-08",
-        "2026-11-09",
-        "2026-11-10"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
-    },
-    {
       "name": "マリアセレン コンサート",
       "dates": [
         "2026-11-06"
@@ -317,21 +173,6 @@
       "place": "ブリックホール",
       "spot": "brick",
       "from": "ブリックホール"
-    },
-    {
-      "name": "第4回 ハーレーダビッドソン＆ロッキンミュージックin出島メッセ長崎",
-      "dates": [
-        "2026-11-07",
-        "2026-11-08"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
     },
     {
       "name": "スターダスト☆レビュー 45周年ツアー2025〜27「星屑冒険王」",
@@ -363,35 +204,6 @@
       "from": "まちなかのお祭り"
     },
     {
-      "name": "第33回日本神経内視鏡学会",
-      "dates": [
-        "2026-11-12",
-        "2026-11-13"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
-    },
-    {
-      "name": "マイナビインターンシップ＆キャリア発見フェア 長崎会場",
-      "dates": [
-        "2026-11-14"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
-    },
-    {
       "name": "NAGASAKI CITY JAZZ",
       "dates": [
         "2026-11-14",
@@ -419,50 +231,6 @@
       "place": "長崎水辺の森公園",
       "spot": "mizube",
       "from": "長崎ベイサイドマラソン"
-    },
-    {
-      "name": "外国人材つながるフェア",
-      "dates": [
-        "2026-11-17"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
-    },
-    {
-      "name": "第81回日本大腸肛門病学会学術集会",
-      "dates": [
-        "2026-11-20",
-        "2026-11-21"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
-    },
-    {
-      "name": "トコハピカーニバル トコトン♡推しに夢中",
-      "dates": [
-        "2026-11-28",
-        "2026-11-29"
-      ],
-      "start": null,
-      "source": "https://dejima-messe.jp/event",
-      "icon": "event",
-      "expected": 1000,
-      "basis": "来場者数は不明（小規模として計上）",
-      "place": "出島メッセ長崎",
-      "spot": "messe",
-      "from": "出島メッセ長崎"
     },
     {
       "name": "角笛シルエット劇場",
