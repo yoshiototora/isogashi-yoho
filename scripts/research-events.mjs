@@ -123,6 +123,7 @@ async function askGemini(prompt) {
     for (let attempt = 0; attempt < 2; attempt++) {
       const res = await fetch(`${API}/models/${model}:generateContent`, {
         method: "POST",
+        signal: AbortSignal.timeout(90_000),
         // キーはURLに付けず、ヘッダーで送る（URLは記録に残りやすいため）
         headers: { "x-goog-api-key": KEY, "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -273,12 +274,24 @@ for (const source of SOURCES) {
   let ok = true;
   for (const url of urls) {
     try {
-      const res = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (isogashi-yoho data import)" } });
+      const res = await fetch(url, {
+        headers: { "User-Agent": "Mozilla/5.0 (isogashi-yoho data import)" },
+        signal: AbortSignal.timeout(30_000),
+      });
       if (!res.ok) throw new Error(`ページを取れませんでした（HTTP ${res.status}）`);
+      // 別のページ（メンテナンスのお知らせなど）に転送されたときは、読まずに失敗にする
+      if (res.redirected && new URL(res.url).pathname.replace(/\/$/, "") !== new URL(url).pathname.replace(/\/$/, "")) {
+        throw new Error(`別のページに転送されました（${res.url}）。メンテナンス中の可能性があります`);
+      }
       const pageText = toText(await res.text());
+      if (/メンテナンス|閲覧停止|maintenance/i.test(pageText.slice(0, 3000))) {
+        throw new Error("メンテナンス中のお知らせが表示されています");
+      }
       const ask = { venue: venuePrompt, town: townPrompt, festival: festivalPrompt }[type];
       const list = await askGemini(ask(key, url, pageText));
       if (!Array.isArray(list)) throw new Error("読み取った結果が決まった形ではありません");
+      // 会場や一覧のページで1件も読めないのは、ページの作りが変わった可能性が高い（催しが1つの公式ページは0件でもよい）
+      if (type !== "festival" && list.length === 0) throw new Error("イベントが1件も読み取れませんでした。ページの作りが変わった可能性があります");
       for (const e of list) {
         const rejected = check(e, type, pageText);
         candidates.push({ ...e, place, source: url, accepted: !rejected, reason: rejected ?? undefined });
