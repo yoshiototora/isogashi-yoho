@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-22T23:52:34.184Z",
+  "fetchedAt": "2026-10-23T23:44:42.836Z",
   "sources": {
     "holidays": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
     "stadiumCity": "https://www.nagasakistadiumcity.com/event/",
@@ -1239,15 +1239,6 @@
         "name": "セレブリティ・ミレニアム",
         "tonnage": 91011,
         "arrive": "7:30",
-        "depart": "19:00",
-        "berth": "松が枝"
-      }
-    ],
-    "2026-10-26": [
-      {
-        "name": "ルミナーラ",
-        "tonnage": 48072,
-        "arrive": "8:00",
         "depart": "19:00",
         "berth": "松が枝"
       }
