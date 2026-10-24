@@ -1,11 +1,57 @@
 {
-  "researchedAt": "2026-10-23T23:51:51.357Z",
+  "researchedAt": "2026-10-24T22:57:20.303Z",
   "model": "gemini-flash-latest",
   "months": [
     "2026年10月",
     "2026年11月"
   ],
   "events": [
+    {
+      "name": "長崎アニママンドリン合奏団第98回定期演奏会",
+      "dates": [
+        "2026-11-01"
+      ],
+      "start": "14:00",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "マリアセレン コンサート",
+      "dates": [
+        "2026-11-06"
+      ],
+      "start": "18:30",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": true
+    },
+    {
+      "name": "スターダスト☆レビュー 45周年ツアー2025〜27「星屑冒険王」",
+      "dates": [
+        "2026-11-07"
+      ],
+      "start": "17:00",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": true
+    },
+    {
+      "name": "長崎民俗舞踊研究会 民踊大会",
+      "dates": [
+        "2026-11-08"
+      ],
+      "start": "12:30",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
     {
       "name": "NAGASAKI CITY JAZZ",
       "dates": [
@@ -15,6 +61,87 @@
       "start": "10:00",
       "place": "長崎駅 かもめ広場ほか",
       "source": "https://nagasaki-city-jazz.com/",
+      "accepted": true
+    },
+    {
+      "name": "第109回かとうフィーリングアートバレエリサイタル",
+      "dates": [
+        "2026-11-15"
+      ],
+      "start": "12:00",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "長崎ベイサイドマラソン",
+      "dates": [
+        "2026-11-15"
+      ],
+      "start": "09:00",
+      "place": "長崎水辺の森公園",
+      "source": "https://www.city.nagasaki.lg.jp/page/20104.html",
+      "accepted": true
+    },
+    {
+      "name": "第74回長崎市民生委員・児童委員大会",
+      "dates": [
+        "2026-11-19"
+      ],
+      "start": "13:30",
+      "kind": "conference",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": false,
+      "reason": "1日だけの会議"
+    },
+    {
+      "name": "RIBBON’S SHOW vol.19",
+      "dates": [
+        "2026-11-22"
+      ],
+      "start": "13:00",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "サムライブラスオルケスター 第14回定期演奏会",
+      "dates": [
+        "2026-11-23"
+      ],
+      "start": "14:00",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "長崎交響楽団 第104回定期演奏会",
+      "dates": [
+        "2026-11-29"
+      ],
+      "start": "14:00",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "角笛シルエット劇場",
+      "dates": [
+        "2026-11-30"
+      ],
+      "start": "10:30",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
       "accepted": true
     }
   ]
