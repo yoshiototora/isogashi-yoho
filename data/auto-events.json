@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-10-27T00:18:14.466Z",
+  "researchedAt": "2026-10-28T00:17:52.797Z",
   "events": [
     {
       "name": "さらば青春の光 SUTEGORO 2026",
@@ -90,7 +90,7 @@
       "from": "まちなかのお祭り"
     },
     {
-      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 01.辻井伸行コンサート",
+      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 01.辻井伸行コンサート >",
       "dates": [
         "2026-10-10"
       ],
@@ -104,7 +104,7 @@
       "from": "ブリックホール"
     },
     {
-      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 02.辻井伸行コンサート",
+      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 02.辻井伸行コンサート >",
       "dates": [
         "2026-10-11"
       ],
@@ -382,7 +382,7 @@
         "2026-11-14",
         "2026-11-15"
       ],
-      "start": "10:00",
+      "start": null,
       "source": "https://nagasaki-city-jazz.com/",
       "icon": "live",
       "expected": 1000,
