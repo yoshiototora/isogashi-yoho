@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-10-31T00:27:16.622Z",
+  "researchedAt": "2026-11-01T00:04:56.739Z",
   "model": "gemini-flash-latest",
   "months": [
     "2026年10月",
@@ -7,15 +7,50 @@
   ],
   "events": [
     {
+      "name": "令和8年度長崎県立長崎西高等学校芸術鑑賞会",
+      "dates": [
+        "2026-10-02"
+      ],
+      "start": "13:00",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "さらば青春の光 SUTEGORO 2026",
+      "dates": [
+        "2026-10-03"
+      ],
+      "start": "14:00",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
+      "accepted": true
+    },
+    {
       "name": "長崎くんち 庭見世",
       "dates": [
         "2026-10-03"
       ],
       "start": null,
       "kind": "festival",
-      "area": "machinaka",
+      "area": "other",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
+      "accepted": false,
+      "reason": "対象の場所ではない"
+    },
+    {
+      "name": "玉置浩二 with 故郷楽団 Concert Tour 2026 ファンファーレ！！",
+      "dates": [
+        "2026-10-04"
+      ],
+      "start": "17:30",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
       "accepted": true
     },
     {
@@ -25,10 +60,11 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "machinaka",
+      "area": "other",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": true
+      "accepted": false,
+      "reason": "対象の場所ではない"
     },
     {
       "name": "長崎くんち",
@@ -39,10 +75,11 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "machinaka",
+      "area": "other",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": true
+      "accepted": false,
+      "reason": "対象の場所ではない"
     },
     {
       "name": "長崎くんち 庭先回り",
@@ -53,9 +90,32 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "machinaka",
+      "area": "other",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
+      "accepted": false,
+      "reason": "対象の場所ではない"
+    },
+    {
+      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 01.辻井伸行コンサート",
+      "dates": [
+        "2026-10-10"
+      ],
+      "start": "15:00",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
+      "accepted": true
+    },
+    {
+      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 02.辻井伸行コンサート",
+      "dates": [
+        "2026-10-11"
+      ],
+      "start": "14:00",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
       "accepted": true
     },
     {
@@ -66,9 +126,56 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "machinaka",
+      "area": "other",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
+      "accepted": false,
+      "reason": "対象の場所ではない"
+    },
+    {
+      "name": "瓊浦高等学校吹奏楽部 第22回定期演奏会",
+      "dates": [
+        "2026-10-17"
+      ],
+      "start": "14:00",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "宮川大輔×ケンドーコバヤシ トークライブ あんぎゃー 長崎公演",
+      "dates": [
+        "2026-10-18"
+      ],
+      "start": "16:00",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
+      "accepted": true
+    },
+    {
+      "name": "第74回長崎市民音楽祭",
+      "dates": [
+        "2026-10-25"
+      ],
+      "start": "10:30",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "ゴスペラーズ坂ツアー2026 “UNIVER5OUL”",
+      "dates": [
+        "2026-10-31"
+      ],
+      "start": "17:00",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
       "accepted": true
     },
     {
@@ -85,40 +192,6 @@
       "reason": "対象の場所ではない"
     },
     {
-      "name": "長崎アニママンドリン合奏団第98回定期演奏会",
-      "dates": [
-        "2026-11-01"
-      ],
-      "start": "14:00",
-      "kind": "community",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
-    },
-    {
-      "name": "マリアセレン コンサート",
-      "dates": [
-        "2026-11-06"
-      ],
-      "start": "18:30",
-      "kind": "show",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": true
-    },
-    {
-      "name": "スターダスト☆レビュー 45周年ツアー2025〜27「星屑冒険王」",
-      "dates": [
-        "2026-11-07"
-      ],
-      "start": "17:00",
-      "kind": "show",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": true
-    },
-    {
       "name": "丸山華まつり",
       "dates": [
         "2026-11-07",
@@ -126,102 +199,20 @@
       ],
       "start": null,
       "kind": "festival",
-      "area": "machinaka",
+      "area": "other",
       "place": "まちなかのお祭り",
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
-      "accepted": true
-    },
-    {
-      "name": "長崎民俗舞踊研究会 民踊大会",
-      "dates": [
-        "2026-11-08"
-      ],
-      "start": "12:30",
-      "kind": "community",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
       "accepted": false,
-      "reason": "セミナー・発表会など"
+      "reason": "対象の場所ではない"
     },
     {
-      "name": "第109回かとうフィーリングアートバレエリサイタル",
-      "dates": [
-        "2026-11-15"
-      ],
-      "start": "12:00",
-      "kind": "community",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
-    },
-    {
-      "name": "2026長崎ベイサイドマラソン",
+      "name": "長崎ベイサイドマラソン",
       "dates": [
         "2026-11-15"
       ],
       "start": "09:00",
       "place": "長崎水辺の森公園",
       "source": "https://www.city.nagasaki.lg.jp/page/20104.html",
-      "accepted": true
-    },
-    {
-      "name": "第74回長崎市民生委員・児童委員大会",
-      "dates": [
-        "2026-11-19"
-      ],
-      "start": "13:30",
-      "kind": "conference",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": false,
-      "reason": "1日だけの会議"
-    },
-    {
-      "name": "RIBBON’S SHOW vol.19",
-      "dates": [
-        "2026-11-22"
-      ],
-      "start": "13:00",
-      "kind": "community",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
-    },
-    {
-      "name": "サムライブラスオルケスター 第14回定期演奏会",
-      "dates": [
-        "2026-11-23"
-      ],
-      "start": "14:00",
-      "kind": "community",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
-    },
-    {
-      "name": "長崎交響楽団 第104回定期演奏会",
-      "dates": [
-        "2026-11-29"
-      ],
-      "start": "14:00",
-      "kind": "community",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
-    },
-    {
-      "name": "角笛シルエット劇場",
-      "dates": [
-        "2026-11-30"
-      ],
-      "start": "10:30",
-      "kind": "show",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
       "accepted": true
     }
   ]
