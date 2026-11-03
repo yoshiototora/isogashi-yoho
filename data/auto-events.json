@@ -1,20 +1,6 @@
 {
-  "researchedAt": "2026-11-02T00:24:41.462Z",
+  "researchedAt": "2026-11-03T02:52:00.868Z",
   "events": [
-    {
-      "name": "さらば青春の光 SUTEGORO 2026",
-      "dates": [
-        "2026-10-03"
-      ],
-      "start": "14:00",
-      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
-      "icon": "live",
-      "expected": 2000,
-      "basis": "ブリックホール大ホールの座席数（2,002席）",
-      "place": "ブリックホール",
-      "spot": "brick",
-      "from": "ブリックホール"
-    },
     {
       "name": "長崎くんち 庭見世",
       "dates": [
@@ -28,20 +14,6 @@
       "place": "まちなか",
       "spot": "machinaka",
       "from": "まちなかのお祭り"
-    },
-    {
-      "name": "玉置浩二 with 故郷楽団 Concert Tour 2026 ファンファーレ！！",
-      "dates": [
-        "2026-10-04"
-      ],
-      "start": "17:30",
-      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
-      "icon": "live",
-      "expected": 2000,
-      "basis": "ブリックホール大ホールの座席数（2,002席）",
-      "place": "ブリックホール",
-      "spot": "brick",
-      "from": "ブリックホール"
     },
     {
       "name": "長崎くんち 人数揃い",
@@ -90,34 +62,6 @@
       "from": "まちなかのお祭り"
     },
     {
-      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 01.辻井伸行コンサート >",
-      "dates": [
-        "2026-10-10"
-      ],
-      "start": "15:00",
-      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
-      "icon": "live",
-      "expected": 2000,
-      "basis": "ブリックホール大ホールの座席数（2,002席）",
-      "place": "ブリックホール",
-      "spot": "brick",
-      "from": "ブリックホール"
-    },
-    {
-      "name": "NAGASAKI JAZZ&CLASSIC FESTIVAL 2026 02.辻井伸行コンサート >",
-      "dates": [
-        "2026-10-11"
-      ],
-      "start": "14:00",
-      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
-      "icon": "live",
-      "expected": 2000,
-      "basis": "ブリックホール大ホールの座席数（2,002席）",
-      "place": "ブリックホール",
-      "spot": "brick",
-      "from": "ブリックホール"
-    },
-    {
       "name": "Global Offshore Wind Summit-Japan 2026（世界洋上風力サミット）",
       "dates": [
         "2026-10-13",
@@ -147,20 +91,6 @@
       "place": "まちなか",
       "spot": "machinaka",
       "from": "まちなかのお祭り"
-    },
-    {
-      "name": "宮川大輔×ケンドーコバヤシ トークライブ あんぎゃー 長崎公演",
-      "dates": [
-        "2026-10-18"
-      ],
-      "start": "16:00",
-      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
-      "icon": "live",
-      "expected": 2000,
-      "basis": "ブリックホール大ホールの座席数（2,002席）",
-      "place": "ブリックホール",
-      "spot": "brick",
-      "from": "ブリックホール"
     },
     {
       "name": "2026長崎水道展",
@@ -240,20 +170,6 @@
       "place": "出島メッセ長崎",
       "spot": "messe",
       "from": "出島メッセ長崎"
-    },
-    {
-      "name": "ゴスペラーズ坂ツアー2026 “UNIVER5OUL”",
-      "dates": [
-        "2026-10-31"
-      ],
-      "start": "17:00",
-      "source": "https://www.brickhall.jp/event/?Month=2610&Facility=1",
-      "icon": "live",
-      "expected": 2000,
-      "basis": "ブリックホール大ホールの座席数（2,002席）",
-      "place": "ブリックホール",
-      "spot": "brick",
-      "from": "ブリックホール"
     },
     {
       "name": "日本建築行政会議 全国会議",
@@ -382,7 +298,7 @@
         "2026-11-14",
         "2026-11-15"
       ],
-      "start": "10:00",
+      "start": null,
       "source": "https://nagasaki-city-jazz.com/",
       "icon": "live",
       "expected": 1000,
@@ -456,6 +372,48 @@
       ],
       "start": "10:30",
       "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
+    },
+    {
+      "name": "ASKA CONCERT TOUR 2026-2027 “Lock-on”",
+      "dates": [
+        "2026-12-23"
+      ],
+      "start": "18:30",
+      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
+    },
+    {
+      "name": "細川たかし 長山洋子～ふたりのビッグショー～",
+      "dates": [
+        "2026-12-24"
+      ],
+      "start": "13:00",
+      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
+      "icon": "live",
+      "expected": 2000,
+      "basis": "ブリックホール大ホールの座席数（2,002席）",
+      "place": "ブリックホール",
+      "spot": "brick",
+      "from": "ブリックホール"
+    },
+    {
+      "name": "DRUM TAO「THE HUMAN 2」",
+      "dates": [
+        "2026-12-25"
+      ],
+      "start": "18:30",
+      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
       "icon": "live",
       "expected": 2000,
       "basis": "ブリックホール大ホールの座席数（2,002席）",
