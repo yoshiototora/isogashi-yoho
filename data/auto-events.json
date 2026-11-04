@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-03T02:52:00.868Z",
+  "researchedAt": "2026-11-04T01:06:10.032Z",
   "events": [
     {
       "name": "長崎くんち 庭見世",
@@ -298,7 +298,7 @@
         "2026-11-14",
         "2026-11-15"
       ],
-      "start": null,
+      "start": "10:00",
       "source": "https://nagasaki-city-jazz.com/",
       "icon": "live",
       "expected": 1000,

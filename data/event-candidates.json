@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-03T02:52:00.868Z",
+  "researchedAt": "2026-11-04T01:06:10.032Z",
   "model": "gemini-3.5-flash",
   "months": [
     "2026年11月",
@@ -41,6 +41,19 @@
       "accepted": true
     },
     {
+      "name": "丸山華まつり",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "start": null,
+      "kind": "festival",
+      "area": "machinaka",
+      "place": "まちなかのお祭り",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
+      "accepted": true
+    },
+    {
       "name": "長崎民俗舞踊研究会 民踊大会",
       "dates": [
         "2026-11-08"
@@ -72,7 +85,7 @@
         "2026-11-14",
         "2026-11-15"
       ],
-      "start": null,
+      "start": "10:00",
       "place": "長崎駅 かもめ広場ほか",
       "source": "https://nagasaki-city-jazz.com/",
       "accepted": true
@@ -88,6 +101,16 @@
       "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
       "accepted": false,
       "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "長崎ベイサイドマラソン",
+      "dates": [
+        "2026-11-15"
+      ],
+      "start": "09:00",
+      "place": "長崎水辺の森公園",
+      "source": "https://www.city.nagasaki.lg.jp/page/20104.html",
+      "accepted": true
     },
     {
       "name": "第74回長崎市民生委員・児童委員大会",
