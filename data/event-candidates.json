@@ -1,6 +1,6 @@
 {
-  "researchedAt": "2026-11-04T01:06:10.032Z",
-  "model": "gemini-3.5-flash",
+  "researchedAt": "2026-11-05T01:24:46.119Z",
+  "model": "gemini-flash-latest",
   "months": [
     "2026年11月",
     "2026年12月"
@@ -38,19 +38,6 @@
       "kind": "show",
       "place": "ブリックホール",
       "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
-      "accepted": true
-    },
-    {
-      "name": "丸山華まつり",
-      "dates": [
-        "2026-11-07",
-        "2026-11-08"
-      ],
-      "start": null,
-      "kind": "festival",
-      "area": "machinaka",
-      "place": "まちなかのお祭り",
-      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
       "accepted": true
     },
     {
@@ -170,6 +157,21 @@
       "place": "ブリックホール",
       "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
       "accepted": true
+    },
+    {
+      "name": "水産加工振興祭withふるさと物産まつり",
+      "dates": [
+        "2026-12-11",
+        "2026-12-12",
+        "2026-12-13"
+      ],
+      "start": null,
+      "kind": "festival",
+      "area": "other",
+      "place": "まちなかのお祭り",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=2",
+      "accepted": false,
+      "reason": "対象の場所ではない"
     },
     {
       "name": "活水高等学校・中学校吹奏楽部 第12回定期演奏会",
