@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-05T01:24:46.119Z",
+  "researchedAt": "2026-11-06T01:22:52.531Z",
   "model": "gemini-flash-latest",
   "months": [
     "2026年11月",
@@ -39,6 +39,20 @@
       "place": "ブリックホール",
       "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
       "accepted": true
+    },
+    {
+      "name": "丸山華まつり",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "start": null,
+      "kind": "festival",
+      "area": "other",
+      "place": "まちなかのお祭り",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
+      "accepted": false,
+      "reason": "対象の場所ではない"
     },
     {
       "name": "長崎民俗舞踊研究会 民踊大会",
@@ -90,7 +104,7 @@
       "reason": "セミナー・発表会など"
     },
     {
-      "name": "長崎ベイサイドマラソン",
+      "name": "2026長崎ベイサイドマラソン",
       "dates": [
         "2026-11-15"
       ],
