@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T01:21:38.464Z",
+  "fetchedAt": "2026-11-07T00:36:53.502Z",
   "sources": {
     "holidays": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
     "stadiumCity": "https://www.nagasakistadiumcity.com/event/",
@@ -1302,15 +1302,6 @@
         "arrive": "8:00",
         "depart": "19:00",
         "berth": "出島"
-      }
-    ],
-    "2026-11-17": [
-      {
-        "name": "ビジオ",
-        "tonnage": 102784,
-        "arrive": "14:00",
-        "depart": "22:00",
-        "berth": "松が枝"
       }
     ],
     "2026-11-18": [
