@@ -1,94 +1,20 @@
 {
-  "researchedAt": "2026-11-07T00:44:42.854Z",
-  "model": "gemini-3.5-flash",
+  "researchedAt": "2026-11-08T00:21:20.917Z",
+  "model": "gemini-flash-latest",
   "months": [
     "2026年11月",
     "2026年12月"
   ],
   "events": [
     {
-      "name": "水産加工振興祭withふるさと物産まつり",
+      "name": "2026長崎ベイサイドマラソン",
       "dates": [
-        "2026-12-11",
-        "2026-12-12",
-        "2026-12-13"
+        "2026-11-15"
       ],
-      "start": null,
-      "kind": "festival",
-      "area": "other",
-      "place": "まちなかのお祭り",
-      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=2",
-      "accepted": false,
-      "reason": "対象の場所ではない"
-    },
-    {
-      "name": "活水高等学校・中学校吹奏楽部 第12回定期演奏会",
-      "dates": [
-        "2026-12-12"
-      ],
-      "start": "11:00",
-      "kind": "community",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
-    },
-    {
-      "name": "長崎北保育園 おゆうぎ会",
-      "dates": [
-        "2026-12-19"
-      ],
-      "start": "13:00",
-      "kind": "community",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
-    },
-    {
-      "name": "ASKA CONCERT TOUR 2026-2027 “Lock-on”",
-      "dates": [
-        "2026-12-23"
-      ],
-      "start": "18:30",
-      "kind": "show",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
+      "start": "09:00",
+      "place": "長崎水辺の森公園",
+      "source": "https://www.city.nagasaki.lg.jp/page/20104.html",
       "accepted": true
-    },
-    {
-      "name": "細川たかし 長山洋子～ふたりのビッグショー～",
-      "dates": [
-        "2026-12-24"
-      ],
-      "start": "13:00",
-      "kind": "show",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
-      "accepted": true
-    },
-    {
-      "name": "DRUM TAO「THE HUMAN 2」",
-      "dates": [
-        "2026-12-25"
-      ],
-      "start": "18:30",
-      "kind": "show",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
-      "accepted": true
-    },
-    {
-      "name": "長崎市立長崎商業高等学校吹奏楽部 第59回定期演奏会",
-      "dates": [
-        "2026-12-26"
-      ],
-      "start": "13:30",
-      "kind": "community",
-      "place": "ブリックホール",
-      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
-      "accepted": false,
-      "reason": "セミナー・発表会など"
     }
   ]
 }
