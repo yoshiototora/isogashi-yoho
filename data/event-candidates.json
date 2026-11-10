@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-09T00:40:15.966Z",
+  "researchedAt": "2026-11-10T03:17:46.795Z",
   "model": "gemini-flash-latest",
   "months": [
     "2026年11月",
@@ -7,14 +7,30 @@
   ],
   "events": [
     {
-      "name": "NAGASAKI CITY JAZZ",
+      "name": "丸山華まつり",
       "dates": [
-        "2026-11-14",
-        "2026-11-15"
+        "2026-11-07",
+        "2026-11-08"
       ],
-      "start": "10:00",
-      "place": "長崎駅 かもめ広場ほか",
-      "source": "https://nagasaki-city-jazz.com/",
+      "start": null,
+      "kind": "festival",
+      "area": "machinaka",
+      "place": "まちなかのお祭り",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
+      "accepted": true
+    },
+    {
+      "name": "水産加工振興祭withふるさと物産まつり",
+      "dates": [
+        "2026-12-11",
+        "2026-12-12",
+        "2026-12-13"
+      ],
+      "start": null,
+      "kind": "festival",
+      "area": "machinaka",
+      "place": "まちなかのお祭り",
+      "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
       "accepted": true
     }
   ]
