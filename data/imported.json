@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T02:07:04.893Z",
+  "fetchedAt": "2026-11-13T01:40:42.471Z",
   "sources": {
     "holidays": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
     "stadiumCity": "https://www.nagasakistadiumcity.com/event/",
@@ -1371,6 +1371,15 @@
         "tonnage": 115906,
         "arrive": "7:00",
         "depart": "16:00",
+        "berth": "松が枝"
+      }
+    ],
+    "2026-12-04": [
+      {
+        "name": "アドラ・マジック・シティ",
+        "tonnage": 136201,
+        "arrive": "10:00",
+        "depart": "20:00",
         "berth": "松が枝"
       }
     ],
