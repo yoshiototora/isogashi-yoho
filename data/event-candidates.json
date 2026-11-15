@@ -1,9 +1,21 @@
 {
-  "researchedAt": "2026-11-14T01:27:32.632Z",
-  "model": "gemini-flash-latest",
+  "researchedAt": "2026-11-15T00:54:38.768Z",
+  "model": "gemini-3.5-flash",
   "months": [
     "2026年11月",
     "2026年12月"
   ],
-  "events": []
+  "events": [
+    {
+      "name": "NAGASAKI CITY JAZZ",
+      "dates": [
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "start": null,
+      "place": "長崎駅 かもめ広場ほか",
+      "source": "https://nagasaki-city-jazz.com/",
+      "accepted": true
+    }
+  ]
 }
