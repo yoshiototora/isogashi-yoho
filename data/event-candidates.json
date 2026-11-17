@@ -1,6 +1,6 @@
 {
-  "researchedAt": "2026-11-16T00:54:54.793Z",
-  "model": "gemini-flash-latest",
+  "researchedAt": "2026-11-17T03:27:56.493Z",
+  "model": "gemini-3.5-flash",
   "months": [
     "2026年11月",
     "2026年12月"
@@ -67,6 +67,17 @@
       "reason": "セミナー・発表会など"
     },
     {
+      "name": "NAGASAKI CITY JAZZ",
+      "dates": [
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "start": "10:00",
+      "place": "長崎駅 かもめ広場ほか",
+      "source": "https://nagasaki-city-jazz.com/",
+      "accepted": true
+    },
+    {
       "name": "第109回かとうフィーリングアートバレエリサイタル",
       "dates": [
         "2026-11-15"
@@ -77,6 +88,16 @@
       "source": "https://www.brickhall.jp/event/?Month=2611&Facility=1",
       "accepted": false,
       "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "長崎ベイサイドマラソン",
+      "dates": [
+        "2026-11-15"
+      ],
+      "start": "09:00",
+      "place": "長崎水辺の森公園",
+      "source": "https://www.city.nagasaki.lg.jp/page/20104.html",
+      "accepted": true
     },
     {
       "name": "第74回長崎市民生委員・児童委員大会",
