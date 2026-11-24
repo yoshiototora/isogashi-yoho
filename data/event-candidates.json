@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-23T01:32:10.244Z",
+  "researchedAt": "2026-11-24T05:13:34.530Z",
   "model": "gemini-3.5-flash",
   "months": [
     "2026年11月",
@@ -90,7 +90,7 @@
       "reason": "セミナー・発表会など"
     },
     {
-      "name": "2026長崎ベイサイドマラソン",
+      "name": "長崎ベイサイドマラソン",
       "dates": [
         "2026-11-15"
       ],
@@ -276,6 +276,75 @@
       "source": "https://www.at-nagasaki.jp/event?st=acs&vw=tile&page=1",
       "accepted": false,
       "reason": "対象の場所ではない"
+    },
+    {
+      "name": "活水高等学校・中学校吹奏楽部 第12回定期演奏会",
+      "dates": [
+        "2026-12-12"
+      ],
+      "start": "11:00",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "長崎北保育園 おゆうぎ会",
+      "dates": [
+        "2026-12-19"
+      ],
+      "start": "13:00",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
+    },
+    {
+      "name": "ASKA CONCERT TOUR 2026-2027 “Lock-on”",
+      "dates": [
+        "2026-12-23"
+      ],
+      "start": "18:30",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
+      "accepted": true
+    },
+    {
+      "name": "細川たかし 長山洋子～ふたりのビッグショー～",
+      "dates": [
+        "2026-12-24"
+      ],
+      "start": "13:00",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
+      "accepted": true
+    },
+    {
+      "name": "DRUM TAO「THE HUMAN 2」",
+      "dates": [
+        "2026-12-25"
+      ],
+      "start": "18:30",
+      "kind": "show",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
+      "accepted": true
+    },
+    {
+      "name": "長崎市立長崎商業高等学校吹奏楽部 第59回定期演奏会",
+      "dates": [
+        "2026-12-26"
+      ],
+      "start": "13:30",
+      "kind": "community",
+      "place": "ブリックホール",
+      "source": "https://www.brickhall.jp/event/?Month=2612&Facility=1",
+      "accepted": false,
+      "reason": "セミナー・発表会など"
     }
   ]
 }
