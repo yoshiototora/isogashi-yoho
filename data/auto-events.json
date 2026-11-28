@@ -1,5 +1,5 @@
 {
-  "researchedAt": "2026-11-27T03:38:44.524Z",
+  "researchedAt": "2026-11-28T03:10:38.572Z",
   "events": [
     {
       "name": "Global Offshore Wind Summit-Japan 2026（世界洋上風力サミット）",
@@ -208,7 +208,7 @@
         "2026-11-14",
         "2026-11-15"
       ],
-      "start": null,
+      "start": "10:00",
       "source": "https://nagasaki-city-jazz.com/",
       "icon": "live",
       "expected": 1000,
